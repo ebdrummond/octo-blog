@@ -19,7 +19,7 @@
 - **Include Code Tag** lets you embed external code snippets from your file system and adds a download link
 - **Pullquote Tag** Generate beautiful semantic pullquotes (no double data) based on Maykel Loomans's [technique](http://miekd.com/articles/pull-quotes-with-html5-and-css/)
 - **Blockquote Tag** makes it easy to semantically format blockquotes
-- **Category Generator** gives you archive pages for each category
+- **Tag Generator** gives you archive pages for each tag
 - **Sitemap.xml Generator** for search engines
 
 ## 1.0
