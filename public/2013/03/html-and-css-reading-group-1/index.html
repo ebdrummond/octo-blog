@@ -1,0 +1,430 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>HTML & CSS Reading Group 1 - ebdrummond</title>
+  <meta name="author" content="Erin Drummond">
+
+  
+  <meta name="description" content="I found this reading to be really interesting. I took a class all the way back in my freshman year of high school on basic html, and it was &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://ebdrummond.com/2013/03/html-and-css-reading-group-1">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="ebdrummond" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="/javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+
+  
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">ebdrummond</a></h1>
+  
+    <h2>it&#8217;s never too late to hit restart</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="https://www.google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="sitesearch" value="ebdrummond.com">
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+  <li><a href="/about">About</a></li>
+  <li><a href="https://twitter.com/ebdrummond" target="_blank">Twitter</a></li>
+  <li><a href="https://github.com/ebdrummond" target="_blank">Github</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+  <article class="hentry" role="article">
+    
+  <header>
+    
+      <h1 class="entry-title">HTML & CSS Reading Group 1</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2013-03-11T16:31:00-05:00'><span class='date'><span class='date-month'>Mar</span> <span class='date-day'>11</span><span class='date-suffix'>th</span>, <span class='date-year'>2013</span></span> <span class='time'>4:31 pm</span></time>
+        
+           | <a href="#disqus_thread"
+             data-disqus-identifier="http://ebdrummond.com">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>I found this reading to be really interesting.  I took a class all the way back in my freshman year of high school on basic html, and it was surprising how much looked the same.  The things that have changed are pretty exciting - no more fontface, no more cell padding.  I also didn&rsquo;t realize how much that used to be done purely in html is moving over as a function of CSS.</p>
+
+<p>The reading was pretty basic to me, and there wasn&rsquo;t really anything that was confusing.  There were a few techniques I haven&rsquo;t used before, but everything clicked with me as a concept.  The thing that I hadn&rsquo;t ever used before at all was a form, and it was really neat to see everything that you can do with forms.  I didn&rsquo;t have a chance to putz around too much, but I was really interested in trying to build a multiple select box form, so that users are able to select multiple values from a list.  To me, this seemed the most challenging of the forms to implement while the others were pretty straight forward, and is a great way to allow users to select multiple values in the event you have a long list where individual checkboxes may take up too much room.</p>
+
+<p>So, here&rsquo;s my attempt at coding this in a fieldset:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+<span class='line-number'>22</span>
+<span class='line-number'>23</span>
+<span class='line-number'>24</span>
+<span class='line-number'>25</span>
+<span class='line-number'>26</span>
+<span class='line-number'>27</span>
+<span class='line-number'>28</span>
+<span class='line-number'>29</span>
+<span class='line-number'>30</span>
+<span class='line-number'>31</span>
+<span class='line-number'>32</span>
+<span class='line-number'>33</span>
+<span class='line-number'>34</span>
+<span class='line-number'>35</span>
+<span class='line-number'>36</span>
+<span class='line-number'>37</span>
+<span class='line-number'>38</span>
+<span class='line-number'>39</span>
+<span class='line-number'>40</span>
+<span class='line-number'>41</span>
+<span class='line-number'>42</span>
+<span class='line-number'>43</span>
+<span class='line-number'>44</span>
+<span class='line-number'>45</span>
+<span class='line-number'>46</span>
+<span class='line-number'>47</span>
+<span class='line-number'>48</span>
+</pre></td><td class='code'><pre><code class='html'><span class='line'><span class="nt">&lt;html&gt;</span>
+</span><span class='line'>  <span class="nt">&lt;head&gt;</span>
+</span><span class='line'>    <span class="nt">&lt;title&gt;</span>Favorite ethnic foods questionnaire<span class="nt">&lt;/title&gt;</span>
+</span><span class='line'>  <span class="nt">&lt;/head&gt;</span>
+</span><span class='line'>  <span class="nt">&lt;body&gt;</span>
+</span><span class='line'>    <span class="nt">&lt;fieldset&gt;</span>
+</span><span class='line'>      <span class="nt">&lt;legend&gt;</span>Demographic Info<span class="nt">&lt;/legend&gt;</span>
+</span><span class='line'>      <span class="nt">&lt;label&gt;</span>Age: <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">&quot;text&quot;</span> <span class="na">name=</span><span class="s">&quot;age&quot;</span> <span class="nt">/&gt;&lt;/label&gt;</span>
+</span><span class='line'>      Gender:
+</span><span class='line'>      <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">&quot;radio&quot;</span> <span class="na">name=</span><span class="s">&quot;gender&quot;</span> <span class="na">value=</span><span class="s">&quot;female&quot;</span><span class="nt">&gt;</span>Female
+</span><span class='line'>      <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">&quot;radio&quot;</span> <span class="na">name=</span><span class="s">&quot;gender&quot;</span> <span class="na">value=</span><span class="s">&quot;male&quot;</span><span class="nt">&gt;</span>Male
+</span><span class='line'>      <span class="nt">&lt;br</span> <span class="nt">/&gt;</span>
+</span><span class='line'>      <span class="nt">&lt;br</span> <span class="nt">/&gt;</span>
+</span><span class='line'>      <span class="nt">&lt;form&gt;</span>
+</span><span class='line'>        <span class="nt">&lt;p&gt;</span>Household Income:<span class="nt">&lt;/p&gt;</span>
+</span><span class='line'>        <span class="nt">&lt;select</span> <span class="na">name=</span><span class="s">&quot;income&quot;</span><span class="nt">&gt;</span>
+</span><span class='line'>          <span class="nt">&lt;option</span> <span class="na">value=</span><span class="s">&quot;tier1&quot;</span><span class="nt">&gt;</span>0-$30,000<span class="nt">&lt;/option&gt;</span>
+</span><span class='line'>          <span class="nt">&lt;option</span> <span class="na">value=</span><span class="s">&quot;tier2&quot;</span><span class="nt">&gt;</span>$30,001-$60,000<span class="nt">&lt;/option&gt;</span>
+</span><span class='line'>          <span class="nt">&lt;option</span> <span class="na">value=</span><span class="s">&quot;tier3&quot;</span><span class="nt">&gt;</span>$60,001-$100,000<span class="nt">&lt;/option&gt;</span>
+</span><span class='line'>          <span class="nt">&lt;option</span> <span class="na">value=</span><span class="s">&quot;tier4&quot;</span><span class="nt">&gt;</span>$100,001 and above<span class="nt">&lt;/option&gt;</span>
+</span><span class='line'>        <span class="nt">&lt;/select&gt;</span>
+</span><span class='line'>      <span class="nt">&lt;/form&gt;</span>
+</span><span class='line'>    <span class="nt">&lt;/fieldset&gt;</span>
+</span><span class='line'>    <span class="nt">&lt;fieldset&gt;</span>
+</span><span class='line'>      <span class="nt">&lt;legend&gt;</span>Favorite Ethnic Foods<span class="nt">&lt;/legend&gt;</span>
+</span><span class='line'>      <span class="nt">&lt;form&gt;</span>
+</span><span class='line'>        <span class="nt">&lt;p&gt;</span>What are your top three favorite ethnic foods from the following list?<span class="nt">&lt;/p&gt;</span>
+</span><span class='line'>        <span class="nt">&lt;p&gt;</span>(You can select more than one option by holding down control on a PC or command key on a Mac while selecting different options.)<span class="nt">&lt;/p&gt;</span>
+</span><span class='line'>        <span class="nt">&lt;select</span> <span class="na">name=</span><span class="s">&quot;foods&quot;</span> <span class="na">size=</span><span class="s">&quot;5&quot;</span> <span class="na">multiple=</span><span class="s">&quot;multiple&quot;</span><span class="nt">&gt;</span>
+</span><span class='line'>          <span class="nt">&lt;option</span> <span class="na">value=</span><span class="s">&quot;Mexican&quot;</span><span class="nt">&gt;</span>Mexican<span class="nt">&lt;/option&gt;</span>
+</span><span class='line'>          <span class="nt">&lt;option</span> <span class="na">value=</span><span class="s">&quot;Cuban&quot;</span><span class="nt">&gt;</span>Cuban<span class="nt">&lt;/option&gt;</span>
+</span><span class='line'>          <span class="nt">&lt;option</span> <span class="na">value=</span><span class="s">&quot;Italian&quot;</span><span class="nt">&gt;</span>Italian<span class="nt">&lt;/option&gt;</span>
+</span><span class='line'>          <span class="nt">&lt;option</span> <span class="na">value=</span><span class="s">&quot;French&quot;</span><span class="nt">&gt;</span>French<span class="nt">&lt;/option&gt;</span>
+</span><span class='line'>          <span class="nt">&lt;option</span> <span class="na">value=</span><span class="s">&quot;Greek&quot;</span><span class="nt">&gt;</span>Greek<span class="nt">&lt;/option&gt;</span>
+</span><span class='line'>          <span class="nt">&lt;option</span> <span class="na">value=</span><span class="s">&quot;German&quot;</span><span class="nt">&gt;</span>German<span class="nt">&lt;/option&gt;</span>
+</span><span class='line'>          <span class="nt">&lt;option</span> <span class="na">value=</span><span class="s">&quot;Polish&quot;</span><span class="nt">&gt;</span>Polish<span class="nt">&lt;/option&gt;</span>
+</span><span class='line'>          <span class="nt">&lt;option</span> <span class="na">value=</span><span class="s">&quot;Lebanese&quot;</span><span class="nt">&gt;</span>Lebanese<span class="nt">&lt;/option&gt;</span>
+</span><span class='line'>          <span class="nt">&lt;option</span> <span class="na">value=</span><span class="s">&quot;Ethiopian&quot;</span><span class="nt">&gt;</span>Ethiopian<span class="nt">&lt;/option&gt;</span>
+</span><span class='line'>          <span class="nt">&lt;option</span> <span class="na">value=</span><span class="s">&quot;Indian&quot;</span><span class="nt">&gt;</span>Indian<span class="nt">&lt;/option&gt;</span>
+</span><span class='line'>          <span class="nt">&lt;option</span> <span class="na">value=</span><span class="s">&quot;Japanese&quot;</span><span class="nt">&gt;</span>Japanese<span class="nt">&lt;/option&gt;</span>
+</span><span class='line'>          <span class="nt">&lt;option</span> <span class="na">value=</span><span class="s">&quot;Chinese&quot;</span><span class="nt">&gt;</span>Chinese<span class="nt">&lt;/option&gt;</span>
+</span><span class='line'>          <span class="nt">&lt;option</span> <span class="na">value=</span><span class="s">&quot;Thai&quot;</span><span class="nt">&gt;</span>Thai<span class="nt">&lt;/option&gt;</span>
+</span><span class='line'>          <span class="nt">&lt;option</span> <span class="na">value=</span><span class="s">&quot;Klingon&quot;</span><span class="nt">&gt;</span>Klingon (mmmm... gagh)<span class="nt">&lt;/option&gt;</span>
+</span><span class='line'>        <span class="nt">&lt;/select&gt;</span>
+</span><span class='line'>      <span class="nt">&lt;/form&gt;</span>
+</span><span class='line'>    <span class="nt">&lt;/fieldset&gt;</span>
+</span><span class='line'>  <span class="nt">&lt;/body&gt;</span>
+</span><span class='line'><span class="nt">&lt;/html&gt;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Which comes out looking like this:</p>
+
+<p><html>
+  <head>
+    <title>Favorite ethnic foods questionnaire</title>
+  </head>
+  <body>
+    <fieldset>
+      <legend>Demographic Info</legend>
+      <label>Age: <input type="text" name="age" /></label>
+      Gender:
+      <input type="radio" name="gender" value="female">Female
+      <input type="radio" name="gender" value="male">Male
+      <br />
+      <br />
+      <form>
+        <p>Household Income:</p>
+        <select name="income">
+          <option value="tier1">0-$30,000</option>
+          <option value="tier2">$30,001-$60,000</option>
+          <option value="tier3">$60,001-$100,000</option>
+          <option value="tier4">$100,001 and above</option>
+        </select>
+      </form>
+    </fieldset>
+    <fieldset>
+      <legend>Favorite Ethnic Foods</legend>
+      <form>
+        <p>What are your top three favorite ethnic foods from the following list?</p>
+        <p>(You can select more than one option by holding down control on a PC or command key on a Mac while selecting different options.)</p>
+        <select name="foods" size="5" multiple="multiple">
+          <option value="Mexican">Mexican</option>
+          <option value="Cuban">Cuban</option>
+          <option value="Italian">Italian</option>
+          <option value="French">French</option>
+          <option value="Greek">Greek</option>
+          <option value="German">German</option>
+          <option value="Polish">Polish</option>
+          <option value="Lebanese">Lebanese</option>
+          <option value="Ethiopian">Ethiopian</option>
+          <option value="Indian">Indian</option>
+          <option value="Japanese">Japanese</option>
+          <option value="Chinese">Chinese</option>
+          <option value="Thai">Thai</option>
+          <option value="Klingon">Klingon (mmmm&hellip; gagh)</option>
+        </select>
+      </form>
+    </fieldset>
+  </body>
+</html></p>
+</div>
+
+
+
+    <footer>
+      <p class="meta post-footer">
+        
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Erin Drummond</span></span>
+
+        
+
+
+
+
+<time class='entry-date' datetime='2013-03-11T16:31:00-05:00'><span class='date'><span class='date-month'>Mar</span> <span class='date-day'>11</span><span class='date-suffix'>th</span>, <span class='date-year'>2013</span></span> <span class='time'>4:31 pm</span></time>
+        
+
+<span class="tags">
+  
+    <a class='tag' href='/blog/tags/gschool/'>gSchool</a>, <a class='tag' href='/blog/tags/reading-group/'>reading group</a>
+  
+</span>
+
+
+      </p>
+
+      <p class="post-nav">
+        
+          <a class="basic-alignment left" href="/2013/03/traffic-spy-retrospective" title="Previous Post: Traffic Spy Retrospective">&laquo; Traffic Spy Retrospective</a>
+        
+        
+          <a class="basic-alignment right" href="/2013/03/small-victories" title="Next Post: Small victories">Small victories &raquo;</a>
+        
+      </p>
+
+      
+        <div class="post-sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://ebdrummond.com/2013/03/html-and-css-reading-group-1" data-via="ebdrummond" data-counturl="http://ebdrummond.com/2013/03/html-and-css-reading-group-1" >Tweet</a>
+  
+  
+  
+    <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
+  
+</div>
+
+      
+
+      
+        <section>
+          <h1>Comments</h1>
+          <div id="disqus_thread" aria-live="polite">
+            
+  <script type="text/javascript">
+        var disqus_shortname = 'itsnevertoolatetohitrestart';
+        
+          
+          // var disqus_developer = 1;
+          var disqus_identifier = 'http://ebdrummond.com/2013/03/html-and-css-reading-group-1';
+          var disqus_url = 'http://ebdrummond.com/2013/03/html-and-css-reading-group-1';
+          var disqus_script = 'embed.js';
+        
+      (function () {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      }());
+  </script>
+
+
+          </div>
+        </section>
+      
+
+    </footer>
+  </article>
+</div>
+
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/2013/08/moving-on">Moving On</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2014/02/the-best-sore-throat-smoothie-ever">The Best Sore Throat Smoothie, Ever</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2013/10/my-first-five-weeks-at-table-xi">My First Five Weeks at Table XI</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2013/09/chile-finally">Chile. Finally</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2013/08/a-whole-mess-of-thank-yous">A Whole Mess of Thank Yous</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating&#8230;</li>
+  </ul>
+  
+  <a href="https://github.com/ebdrummond">@ebdrummond</a> on GitHub
+  
+  <script type="text/javascript">
+    $(document).ready(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'ebdrummond',
+            count: 0,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2015 - Erin Drummond -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+  <div id="fb-root"></div>
+
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) {return;}
+    js = d.createElement(s); js.id = id; js.async = true;
+    js.src = "//connect.facebook.net/en_US/all.js#appId=212934732101925&xfbml=1";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+  </script>
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = '//platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

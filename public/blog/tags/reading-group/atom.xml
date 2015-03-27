@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Tag: Reading Group | ebdrummond]]></title>
+  <link href="http://ebdrummond.com/blog/tags/reading-group/atom.xml" rel="self"/>
+  <link href="http://ebdrummond.com/"/>
+  <updated>2015-03-26T23:32:48-05:00</updated>
+  <id>http://ebdrummond.com/</id>
+  <author>
+    <name><![CDATA[Erin Drummond]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Don't Make Me Think Reading Group 1]]></title>
+    <link href="http://ebdrummond.com/2013/04/dont-make-me-think-reading-group-1"/>
+    <updated>2013-04-01T13:22:00-05:00</updated>
+    <id>http://ebdrummond.com/2013/04/dont-make-me-think-reading-group-1</id>
+    <content type="html"><![CDATA[<p>It was interesting to read Don&rsquo;t Make Me Think - the examples could at times be pretty outdated, but the ideas behind all of the examples were still very relevant for today.  More so than even 10 years ago, people have an unbelieveably short attention span, and you really need to give a user instant gratification in your site or you will lose them.</p>
+
+<p>(As a side note - It was also really entertaining to me to look at the examples and to remember how professional websites looked 10 years ago and laugh.  Granted, in my last job, we looked at a lot of websites from small businesses that were god awful and violated every principle in this book, but 10 years ago that was the case even for large companies.)</p>
+
+<p>One of the ideas that really clicked with me is how users actually use the web versus what we might like to imagine - I thought it was spot on.  When I&rsquo;m on a site, I hardly ever look at the entire thing, just what I&rsquo;m specifically visiting the site to look for; once I&rsquo;ve found it, that&rsquo;s the end of the road.  This makes it even more important that users need to be able to navigate your site quickly, so intelligible design and naming conventions are key.  Part of keeping everything easy to navigate definitely includes cutting out words - they clutter the page and can make it harder to find what you&rsquo;re looking for.  Lots of text is also pretty easy to ignore - I sometimes find myself getting an error message on a site, and realizing I didn&rsquo;t read the text, precisely because it usually is so easy to ignore.</p>
+
+<p>I also know it violates every rule of DRY, but from a user perspective, it&rsquo;s sometimes good to get to the same destination in three different ways (especially if a site does not have a search functionality).  Take Krug&rsquo;s chainsaw example - why not put that in multiple categories if it&rsquo;s reasonable that a user might look in those categories?</p>
+
+<p>I think the lessons from this book tie in well to our Store Engine project.  We had consciously decided to make our site very clean looking with a lot of whitespace, so that the information on the site really stands out.  There&rsquo;s also very easy links throughout the site to different parts of the site, and an easy flow through to checkout.  To give credit where it&rsquo;s due, we did use bootstrap to help us, so a lot of the thought into the design happened before we touched it, but I think these are still really good principles to keep in mind, even if you are using pre-defined templates, to make sure they are still fulfilling your users&#8217; needs.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[HTML & CSS Reading Group 2]]></title>
+    <link href="http://ebdrummond.com/2013/03/html-and-css-reading-group-2"/>
+    <updated>2013-03-18T16:50:00-05:00</updated>
+    <id>http://ebdrummond.com/2013/03/html-and-css-reading-group-2</id>
+    <content type="html"><![CDATA[<p>It was really interesting for me to read the CSS portion of this book - I&rsquo;ve never had any experience with CSS before, and it&rsquo;s interesting to see all the design elements you can implement with pure CSS alone.</p>
+
+<p>I tried to experiment a bit with updating my blog, but had limited success - I think part of it was that the layouts were written in haml, not HTML, which I would have found really helpful in modifying, saying, a .panel class.</p>
+
+<p>Most of what I did (I had previously already tweaked the colors of my blog) was with trying to manipulate the title bar a bit.  I&rsquo;m still not super happy with it, but I can fiddle around with it later.</p>
+
+<p>Here&rsquo;s what it was:
+  <img src="https://s3-us-west-2.amazonaws.com/ebdrummond.com/images/ss1.png" /></p>
+
+<p>And here&rsquo;s what it is now:
+  <img src="https://s3-us-west-2.amazonaws.com/ebdrummond.com/images/ss2.png" /></p>
+
+<p>with code:</p>
+
+<pre><code class="html">    h2 {
+      font-size: 40px;
+      letter-spacing: 0.06em;
+      word-spacing: 0.06em;
+      text-shadow: -1px 1px 10px #704111;
+    }
+</code></pre>
+
+<p>Again, really not to happy with it, but more to come soon!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[HTML & CSS Reading Group 1]]></title>
+    <link href="http://ebdrummond.com/2013/03/html-and-css-reading-group-1"/>
+    <updated>2013-03-11T16:31:00-05:00</updated>
+    <id>http://ebdrummond.com/2013/03/html-and-css-reading-group-1</id>
+    <content type="html"><![CDATA[<p>I found this reading to be really interesting.  I took a class all the way back in my freshman year of high school on basic html, and it was surprising how much looked the same.  The things that have changed are pretty exciting - no more fontface, no more cell padding.  I also didn&rsquo;t realize how much that used to be done purely in html is moving over as a function of CSS.</p>
+
+<p>The reading was pretty basic to me, and there wasn&rsquo;t really anything that was confusing.  There were a few techniques I haven&rsquo;t used before, but everything clicked with me as a concept.  The thing that I hadn&rsquo;t ever used before at all was a form, and it was really neat to see everything that you can do with forms.  I didn&rsquo;t have a chance to putz around too much, but I was really interested in trying to build a multiple select box form, so that users are able to select multiple values from a list.  To me, this seemed the most challenging of the forms to implement while the others were pretty straight forward, and is a great way to allow users to select multiple values in the event you have a long list where individual checkboxes may take up too much room.</p>
+
+<p>So, here&rsquo;s my attempt at coding this in a fieldset:</p>
+
+<pre><code class="html">&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;Favorite ethnic foods questionnaire&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;fieldset&gt;
+      &lt;legend&gt;Demographic Info&lt;/legend&gt;
+      &lt;label&gt;Age: &lt;input type="text" name="age" /&gt;&lt;/label&gt;
+      Gender:
+      &lt;input type="radio" name="gender" value="female"&gt;Female
+      &lt;input type="radio" name="gender" value="male"&gt;Male
+      &lt;br /&gt;
+      &lt;br /&gt;
+      &lt;form&gt;
+        &lt;p&gt;Household Income:&lt;/p&gt;
+        &lt;select name="income"&gt;
+          &lt;option value="tier1"&gt;0-$30,000&lt;/option&gt;
+          &lt;option value="tier2"&gt;$30,001-$60,000&lt;/option&gt;
+          &lt;option value="tier3"&gt;$60,001-$100,000&lt;/option&gt;
+          &lt;option value="tier4"&gt;$100,001 and above&lt;/option&gt;
+        &lt;/select&gt;
+      &lt;/form&gt;
+    &lt;/fieldset&gt;
+    &lt;fieldset&gt;
+      &lt;legend&gt;Favorite Ethnic Foods&lt;/legend&gt;
+      &lt;form&gt;
+        &lt;p&gt;What are your top three favorite ethnic foods from the following list?&lt;/p&gt;
+        &lt;p&gt;(You can select more than one option by holding down control on a PC or command key on a Mac while selecting different options.)&lt;/p&gt;
+        &lt;select name="foods" size="5" multiple="multiple"&gt;
+          &lt;option value="Mexican"&gt;Mexican&lt;/option&gt;
+          &lt;option value="Cuban"&gt;Cuban&lt;/option&gt;
+          &lt;option value="Italian"&gt;Italian&lt;/option&gt;
+          &lt;option value="French"&gt;French&lt;/option&gt;
+          &lt;option value="Greek"&gt;Greek&lt;/option&gt;
+          &lt;option value="German"&gt;German&lt;/option&gt;
+          &lt;option value="Polish"&gt;Polish&lt;/option&gt;
+          &lt;option value="Lebanese"&gt;Lebanese&lt;/option&gt;
+          &lt;option value="Ethiopian"&gt;Ethiopian&lt;/option&gt;
+          &lt;option value="Indian"&gt;Indian&lt;/option&gt;
+          &lt;option value="Japanese"&gt;Japanese&lt;/option&gt;
+          &lt;option value="Chinese"&gt;Chinese&lt;/option&gt;
+          &lt;option value="Thai"&gt;Thai&lt;/option&gt;
+          &lt;option value="Klingon"&gt;Klingon (mmmm... gagh)&lt;/option&gt;
+        &lt;/select&gt;
+      &lt;/form&gt;
+    &lt;/fieldset&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+
+<p>Which comes out looking like this:</p>
+
+<p><html>
+  <head>
+    <title>Favorite ethnic foods questionnaire</title>
+  </head>
+  <body>
+    <fieldset>
+      <legend>Demographic Info</legend>
+      <label>Age: <input type="text" name="age" /></label>
+      Gender:
+      <input type="radio" name="gender" value="female">Female
+      <input type="radio" name="gender" value="male">Male
+      <br />
+      <br />
+      <form>
+        <p>Household Income:</p>
+        <select name="income">
+          <option value="tier1">0-$30,000</option>
+          <option value="tier2">$30,001-$60,000</option>
+          <option value="tier3">$60,001-$100,000</option>
+          <option value="tier4">$100,001 and above</option>
+        </select>
+      </form>
+    </fieldset>
+    <fieldset>
+      <legend>Favorite Ethnic Foods</legend>
+      <form>
+        <p>What are your top three favorite ethnic foods from the following list?</p>
+        <p>(You can select more than one option by holding down control on a PC or command key on a Mac while selecting different options.)</p>
+        <select name="foods" size="5" multiple="multiple">
+          <option value="Mexican">Mexican</option>
+          <option value="Cuban">Cuban</option>
+          <option value="Italian">Italian</option>
+          <option value="French">French</option>
+          <option value="Greek">Greek</option>
+          <option value="German">German</option>
+          <option value="Polish">Polish</option>
+          <option value="Lebanese">Lebanese</option>
+          <option value="Ethiopian">Ethiopian</option>
+          <option value="Indian">Indian</option>
+          <option value="Japanese">Japanese</option>
+          <option value="Chinese">Chinese</option>
+          <option value="Thai">Thai</option>
+          <option value="Klingon">Klingon (mmmm&hellip; gagh)</option>
+        </select>
+      </form>
+    </fieldset>
+  </body>
+</html></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Eloquent Ruby Final Reading Group]]></title>
+    <link href="http://ebdrummond.com/2013/03/eloquent-ruby-final-reading-group"/>
+    <updated>2013-03-04T15:44:00-06:00</updated>
+    <id>http://ebdrummond.com/2013/03/eloquent-ruby-final-reading-group</id>
+    <content type="html"><![CDATA[<p>The metaprogramming section of Eloquent Ruby was a really interesting read, and I&rsquo;m looking forward to my skill level being advanced enough to take advantage of these methods, but as with large parts of the rest of the book, my main takeaway was that EQ will be an excellent reference once I have a better handle on what I&rsquo;m doing.  At my current skill level, I have to say &lsquo;Hell no!&rsquo; to even attempting to implement most of what I read - I have a feeling that in no time at all, I&rsquo;d have completely jacked up Ruby if I attempted it now.</p>
+
+<p>I am looking forward to making good use of method_missing and aliases for those times you know users may get a term or syntax wrong, and you can proactively correct it for them.  Self-modification in your program sounds like a great idea, but right now the thought kind of terrifies me, in that all I can think is that with great power comes great responsibility to know what the hell you&rsquo;re doing.</p>
+
+<p>Overall, I&rsquo;m not sure I&rsquo;d recommend Eloquent Ruby to anyone at or near my current skill level.  Again, I now know what I can reference in the future, but as far as what I can takeaway and use right now, the impact was limited.  I think it would be much more impactful to read this once I have a better command of Ruby and more confidence in my own abilities and knowledge of what&rsquo;s going on with my code.  This is no knock at all on the author or the book; just a knock on my current abilities!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Eloquent Ruby Reading Group 1]]></title>
+    <link href="http://ebdrummond.com/2013/02/eloquent-ruby-reading-group-1"/>
+    <updated>2013-02-17T18:33:00-06:00</updated>
+    <id>http://ebdrummond.com/2013/02/eloquent-ruby-reading-group-1</id>
+    <content type="html"><![CDATA[<p>Before picking up Eloquent Ruby, I had used symbols in my code numerous times, but never really understood why it was I was using them.  I had them explained to me a few different places, but why I was using them was still a little difficult for me to master.  After the chapter on symbols, I&rsquo;m not sure I&rsquo;ll still jump to the knowing exactly when would be the best time to use a symbol, but the way the information was presented in the book, I feel like when I am led to use them now, I will understand why I&rsquo;m doing so - I&rsquo;m using &lsquo;the eyes peering out from the tilted head of a confused but friendly dog&rsquo; because I want the symbol to be a constant in a way that a string is not.</p>
+
+<p>A large part of the Eloquent Ruby book so far has been an interesting read, but a lot of the information hasn&rsquo;t sunk in deep enough for me to have had an &lsquo;a-ha!&rsquo; moment with what&rsquo;s being taught.  One of the areas this is especially true is regular expressions.  Again, regular expressions have been explained to me a few different ways, but (especially as I haven&rsquo;t used them very much in my code yet), their usage hasn&rsquo;t clicked with me yet.  I have found this book to be very accessible though, even if I haven&rsquo;t quite mastered all the concepts presented, so that I&rsquo;m hoping it will be easy to dive back in a re-introduce myself once I&rsquo;m further along in my journey and ready to let some more &lsquo;a-ha&rsquo; moments sink in.</p>
+
+<p>One area presented in the book that is really emphasizing what I&rsquo;m learning outside of the book is the insistence on test coverage for your code, which I&rsquo;m learning through our Sales Engine project is really helpful.  When we first covered testing, I was most excited about it given that it forces you to write tiny little chunks of code at a time instead of feeling like you have to break off a huge class or relationship, which may or may not work in the end.  During Sales Engine, I&rsquo;ve discovered this to be true, but have also found a few instances where I&rsquo;ve been able to quickly address flaws in my logic through testing instead of forging on and discovering the mess later, when other relationships may have been built on my flawed logic.</p>
+
+<p>I&rsquo;m also noticing concepts addressed in the book that I have not learned about yet - sub and superclasses, dynamic typing versus static type checking, etc.  While my main focus right now is on finishing Sales Engine, I&rsquo;ve created a list of these topics that I&rsquo;d like to dig more deeply into in some free time, so I have more background on them when these do come up.  The sub and superclass idea especially is interesting to me - I didn&rsquo;t know that classes could inherit methods from other classes.  It will be interesting to see how I interact with the information presented in the book in a second pass through later on once I have a better grasp of these concepts.  As much as I learned this time, I think it will be even more useful next time with a little more knowledge and experience under my belt.</p>
+]]></content>
+  </entry>
+  
+</feed>

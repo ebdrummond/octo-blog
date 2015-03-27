@@ -1,0 +1,284 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Event Reporter Retrospective - ebdrummond</title>
+  <meta name="author" content="Erin Drummond">
+
+  
+  <meta name="description" content="On Monday earlier this week we were assigned a project to work on, Event Reporter, to test our individual mastery of the basic Ruby we have learned &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://ebdrummond.com/2013/02/event-reporter-retrospective">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="ebdrummond" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="/javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+
+  
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">ebdrummond</a></h1>
+  
+    <h2>it&#8217;s never too late to hit restart</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="https://www.google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="sitesearch" value="ebdrummond.com">
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+  <li><a href="/about">About</a></li>
+  <li><a href="https://twitter.com/ebdrummond" target="_blank">Twitter</a></li>
+  <li><a href="https://github.com/ebdrummond" target="_blank">Github</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+  <article class="hentry" role="article">
+    
+  <header>
+    
+      <h1 class="entry-title">Event Reporter Retrospective</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2013-02-08T16:49:00-06:00'><span class='date'><span class='date-month'>Feb</span> <span class='date-day'>8</span><span class='date-suffix'>th</span>, <span class='date-year'>2013</span></span> <span class='time'>4:49 pm</span></time>
+        
+           | <a href="#disqus_thread"
+             data-disqus-identifier="http://ebdrummond.com">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>On Monday earlier this week we were assigned a project to work on, Event Reporter, to test our individual mastery of the basic Ruby we have learned so far.  The project we built was designed to prompt the user through the terminal to enter a defined set of commands, and manipulate data from a CSV file of registerees data from an event.  For example, if the user entered load file, our default registeree CSV should load, which the user could then use to look up, for example, how many people registered from zip code 80203.  The tool should store the user&rsquo;s search until a new search was performed, and the user would be able to view their selected search output from the terminal or save it to a new CSV.</p>
+
+<p>Unfortunately, I came down with a nasty cold on Tuesday and left early that day, staying at home through the duration of the project.  Because of this, my workflow from Tuesday onward was pretty solitary.  On Monday I used my time to talk with classmates and recap my basic Ruby through re-doing the Pragmatic Studio videos to make sure that I had the fundamentals down, before structuring a basic outline of how I wanted the nuts and bolts of my program to work and basic methods I would create.  I&rsquo;ve found that just making a list in your code of the small steps you need to complete for each method is really helpful (and feels great to cross everything off one at a time!).  On Tuesday I worked with classmates to get their ideas of how they would start their projects prior to leaving, and powered through to work on the code Tuesday night, Wednesday day and night, and Thursday morning.  I wrote as much code as I could, and if I got really stuck on something that I couldn&rsquo;t find answers to in my videos, my intro to programming book, or StackOverflow, I would ask my husband, Brock (a PHP programmer) if he could guide me with questions I should be asking myself.</p>
+
+<p>The finished product can be found here: <a href="http://github.com/ebdrummond/gschool_event_reporter">github.com/ebdrummond/gschool_event_reporter</a></p>
+
+<p>Overall, I was really glad that my code worked, as I was making tweaks to ensure it passed the base expectations up to about 45 minutes before the code was due.  It felt good to have it done and to have it work, but I know my code is not very strong.  A few lines of code exceed 80 characters and methods definitely need to be refactored so they&rsquo;re not so long.  I took a stab at refactoring a few of my longer methods in a backup file prior to submission, but could not get the code to run properly.  As I learn more Ruby skills I would like to go back and refactor my code, but overall I&rsquo;m pretty proud of it because before this program I literally had no programming knowledge at all.  The big thing I worry about is learning these skills better - I spent over 20 hours on this project and felt I struggled to do this on my own.  I would have preferred if my skills were strong enough that I didn&rsquo;t need so much help from teammates or Brock.  I plan to spend this weekend redoing some old projects to make sure I have a better grasp of them before launching into Sales Engine, our next project, next week.</p>
+
+<p>The best takeaway from this project was taking small bites and not trying to tackle the entire beast at once.  Not only is this more technically manageable, but psychologically it gives you a boost and doesn&rsquo;t make it feel insurmountable.  For my next project, I hope to have my fundamentals down better so that I can build more quickly and have ample time for refactoring at the end.</p>
+</div>
+
+
+
+    <footer>
+      <p class="meta post-footer">
+        
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Erin Drummond</span></span>
+
+        
+
+
+
+
+<time class='entry-date' datetime='2013-02-08T16:49:00-06:00'><span class='date'><span class='date-month'>Feb</span> <span class='date-day'>8</span><span class='date-suffix'>th</span>, <span class='date-year'>2013</span></span> <span class='time'>4:49 pm</span></time>
+        
+
+<span class="tags">
+  
+    <a class='tag' href='/blog/tags/event-reporter/'>event reporter</a>, <a class='tag' href='/blog/tags/gschool/'>gSchool</a>
+  
+</span>
+
+
+      </p>
+
+      <p class="post-nav">
+        
+          <a class="basic-alignment left" href="/2013/02/the-passionate-programmer-reading-group-1" title="Previous Post: The Passionate Programmer Reading Group 1">&laquo; The Passionate Programmer Reading Group 1</a>
+        
+        
+          <a class="basic-alignment right" href="/2013/02/the-passionate-programmer-reading-group-2" title="Next Post: The Passionate Programmer Reading Group 2">The Passionate Programmer Reading Group 2 &raquo;</a>
+        
+      </p>
+
+      
+        <div class="post-sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://ebdrummond.com/2013/02/event-reporter-retrospective" data-via="ebdrummond" data-counturl="http://ebdrummond.com/2013/02/event-reporter-retrospective" >Tweet</a>
+  
+  
+  
+    <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
+  
+</div>
+
+      
+
+      
+        <section>
+          <h1>Comments</h1>
+          <div id="disqus_thread" aria-live="polite">
+            
+  <script type="text/javascript">
+        var disqus_shortname = 'itsnevertoolatetohitrestart';
+        
+          
+          // var disqus_developer = 1;
+          var disqus_identifier = 'http://ebdrummond.com/2013/02/event-reporter-retrospective';
+          var disqus_url = 'http://ebdrummond.com/2013/02/event-reporter-retrospective';
+          var disqus_script = 'embed.js';
+        
+      (function () {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      }());
+  </script>
+
+
+          </div>
+        </section>
+      
+
+    </footer>
+  </article>
+</div>
+
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/2013/08/moving-on">Moving On</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2014/02/the-best-sore-throat-smoothie-ever">The Best Sore Throat Smoothie, Ever</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2013/10/my-first-five-weeks-at-table-xi">My First Five Weeks at Table XI</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2013/09/chile-finally">Chile. Finally</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2013/08/a-whole-mess-of-thank-yous">A Whole Mess of Thank Yous</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating&#8230;</li>
+  </ul>
+  
+  <a href="https://github.com/ebdrummond">@ebdrummond</a> on GitHub
+  
+  <script type="text/javascript">
+    $(document).ready(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'ebdrummond',
+            count: 0,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2015 - Erin Drummond -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+  <div id="fb-root"></div>
+
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) {return;}
+    js = d.createElement(s); js.id = id; js.async = true;
+    js.src = "//connect.facebook.net/en_US/all.js#appId=212934732101925&xfbml=1";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+  </script>
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = '//platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

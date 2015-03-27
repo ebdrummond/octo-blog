@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Tag: New Leaf Massage | ebdrummond]]></title>
+  <link href="http://ebdrummond.com/blog/tags/new-leaf-massage/atom.xml" rel="self"/>
+  <link href="http://ebdrummond.com/"/>
+  <updated>2015-03-26T23:32:48-05:00</updated>
+  <id>http://ebdrummond.com/</id>
+  <author>
+    <name><![CDATA[Erin Drummond]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Individual Project Wrap Up]]></title>
+    <link href="http://ebdrummond.com/2013/06/individual-project-wrap-up"/>
+    <updated>2013-06-07T10:12:00-05:00</updated>
+    <id>http://ebdrummond.com/2013/06/individual-project-wrap-up</id>
+    <content type="html"><![CDATA[<p>It&rsquo;s difficult to describe this as the &lsquo;wrap-up&rsquo; to my project, because there is still a ton of work that I am going to do to it.  I have a pretty massive list at home of all the things I&rsquo;m planning on tweaking, adding, removing, optimizing, addressing - ALL THE INGs.  Still, at the end of the formal project portion of this undertaking, I&rsquo;m pretty proud of my work.  There&rsquo;s things I&rsquo;d do differently and a lot I want to make better, but I am really proud that I was able to do this on my own (with some help from instructors and Brock, especially for the Javascript portion) given I&rsquo;ve only been developing for four and a half months.</p>
+
+<p>I knew this project was going to be tough, and the two toughest things for me were dealing with the Javascript, and correctly figuring out the logic for the open time slots on any given day for a given appointment duration the client was requesting.  If the time slots were all one hour long and started on the hour, it would have been easy peasy, but the appointments could be 60 or 90 minutes, and started every half hour.  The final code needs refactoring, but I tested the shit out of it with a context for every contingency of appointment variation, so I know the logic is sound even if the code needs clean up.  This will be especially helpful when I work on Meghan&rsquo;s final site - she actually has appointment times ranging from 30 to 90 minutes with 15 minute increments, and her hours vary by day, with a few days having large gaps in the afternoon.  Now that I know what I&rsquo;m doing, I&rsquo;m confident I&rsquo;ll be able to make these changes for the final product.</p>
+
+<p>One thing I am wondering how to do is make the calendar more flexible.  Right now, I have the days she&rsquo;s off completely blocked out of the calendar; if she decides to open on a random Saturday, I&rsquo;d like for her to be able to do this without me touching the Javascript that controls which days are blocked out in the calendar.  This is something I&rsquo;d like to talk to my mentor about going forward, but it&rsquo;s an interesting problem to solve and I&rsquo;m excited about it.</p>
+
+<p>It was also really cool to see Meghan&rsquo;s reaction when I showed her the final first version of her site.  She was really excited and loves it, which is good since this is the first, first, baby step skeleton version of what her site will eventually be able to do and how it will look - for final roll out, I&rsquo;m planning on engaging the services of Kyle for a few hours to get the design looking good.  I realize my design skills are not very good right now, and I want to give her an actual professional product.</p>
+
+<p>All in all, I&rsquo;m proud of the work I&rsquo;ve done, both with the site and in general with everything I&rsquo;ve learned in the past few months.  There&rsquo;s still a ton to learn and to do with Meghan&rsquo;s site, but this was a solid first iteration and really helped me to realize my own skills as a developer.</p>
+
+<p>Her site can be seen here: <a href="http://www.newleafmassage.net">newleafmassage.net</a></p>
+
+<p>Look for exciting updates once gSchool is complete and I have the time to finish this up!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Individual Project Midway]]></title>
+    <link href="http://ebdrummond.com/2013/05/individual-project-midway"/>
+    <updated>2013-05-31T11:07:00-05:00</updated>
+    <id>http://ebdrummond.com/2013/05/individual-project-midway</id>
+    <content type="html"><![CDATA[<p>My feelings upon starting the individual project were a mixture of excitement and nervousness, weighted towards the former.  It was scary to think though - I was hoping through this project, I&rsquo;d realize I know more than I think I do, but was nervous the opposite would turn out to be true.  I can happily report that, so far, I&rsquo;m feeling my knowledge is right about where I thought it was.  I&rsquo;m not the world&rsquo;s greatest gift to programming, but I&rsquo;m certainly not awful either.</p>
+
+<p>So far, it&rsquo;s been a little bit slow.  I&rsquo;ve managed to get to the point where an admin can sign in, search for a client, and create an appointment for the client.  Once the appointment is created, they get a text via Twilio.  This sounds like a lot, but was actually really simple, and I&rsquo;m working on the hard part now - the logic for time slots and determining which time slots are taken, which are free, and which of the free ones have enough time in them to schedule appointments (if it&rsquo;s a thirty minute timeslot, nothing can be scheduled; if it&rsquo;s a sixty minute timeslot, only the sixty minute massage should show up as an option).</p>
+
+<p>I think once this part is complete, the rest of the MVP will fall into place pretty easily - this is what most of the difficult logic rests upon in the app.  I owe Katrina a huge shout out for her help yesterday.  She helped me to think through how to structure this logic (we have a DayPlanner class, a TimeSlot class, and a Clock class - the last one is because we don&rsquo;t care about the date for a timeslot or dayplanner; only the time), and it would have been a lot messier without her guidance.</p>
+
+<p>I&rsquo;m also really wanting to use AJAX for some of the implementation on the front end.  I&rsquo;d love for the admin appointment scheduling to be on one page - admin searches for a client; once client is selected, the date picker pops up; once date is selected, time picker pops up; once time is selected, massage duration selection pops up with appropriate options given the duration of the available time slot.  I really don&rsquo;t know how to do this, so I&rsquo;m hoping I can get some help from my new mentor.</p>
+
+<p>Speaking of which, I&rsquo;m really excited to be working with Ashish - just from our email conversations so far, he seems awesome.  We&rsquo;re doing a get to know you call on Sunday, so I&rsquo;ll find out more then, but I&rsquo;m excited.</p>
+
+<p>I also am really grateful for the help Jim gave me in the previous mentoring rotation.  He was really great to work with and provided me with great feedback when I was starting to go down paths that didn&rsquo;t make a whole lot of sense in my code.</p>
+
+<p>It is crazy to think there&rsquo;s only seven weeks left.  This has felt like a really long four plus months so far, and at times when the stress level was off the charts it felt like the end of the program was eons away.  Now that I&rsquo;m nearing the end, it&rsquo;s a weird feeling.  I&rsquo;m excited with everything I&rsquo;ve learned so far, and excited to start a new job, but it just feels kind of weird that we&rsquo;re already almost done not that we&rsquo;re at the end.</p>
+
+<p>It is an interesting thing to look back though at where I was a few months ago.  Coming in, I had no clue what I was doing, and for the longest time didn&rsquo;t feel like a real developer.  Now, I&rsquo;m beginning to feel like I can say with confidence that yes, I am a developer.  I can take a problem, and find a way to implement a real solution.  I still have a lot to learn with new styles and refactoring and need help from teammates, mentors, or instructors, but that&rsquo;s not really any different from where most real developers are in real life - most developers work on teams and get advice and feedback from others too.</p>
+
+<p>I still do have to pinch myself to think how far I&rsquo;ve come in just 18 weeks though - this feeling is incredible and I&rsquo;m so glad I made the leap to restart my life as a developer.  It hasn&rsquo;t been easy by any means, but it&rsquo;s sure been rewarding and I can&rsquo;t wait to see what I&rsquo;ll be doing next.</p>
+]]></content>
+  </entry>
+  
+</feed>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Tag: Recipes | ebdrummond]]></title>
+  <link href="http://ebdrummond.com/blog/tags/recipes/atom.xml" rel="self"/>
+  <link href="http://ebdrummond.com/"/>
+  <updated>2015-03-26T23:32:48-05:00</updated>
+  <id>http://ebdrummond.com/</id>
+  <author>
+    <name><![CDATA[Erin Drummond]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[The Best Sore Throat Smoothie, Ever]]></title>
+    <link href="http://ebdrummond.com/2014/02/the-best-sore-throat-smoothie-ever"/>
+    <updated>2014-02-28T10:15:00-06:00</updated>
+    <id>http://ebdrummond.com/2014/02/the-best-sore-throat-smoothie-ever</id>
+    <content type="html"><![CDATA[<h5>Ingredients</h5>
+
+<ul>
+<li>1 heaping tsp coconut oil*</li>
+<li>1 &frac12; tsp protein powder**</li>
+<li>1 &frac12; heaping cups frozen fruit</li>
+<li>Rice milk</li>
+</ul>
+
+
+<p>Go nuts with what kinds of fruit you want and try different pairings.  Peaches, mangoes, berries, cherries&hellip; it&rsquo;s all good.</p>
+
+<h5>Instructions</h5>
+
+<p>Put coconut oil, protein powder, and fruit in a blender (I prefer to use an immersion blender in a sturdy mixing beaker).  Pour in rice milk until it fills in the cracks between pieces of fruit.  Blend.  Enjoy.</p>
+
+<p>* Just in case I am not the only one who didn&rsquo;t realize what coconut oil was - it&rsquo;s not a liquid, it&rsquo;s a solid.<br>
+** I like <a href="http://www.amazon.com/Omega-Nutrition-Pumpkin-Protein-21-Ounce/dp/B004L3VLFK/ref=sr_1_cc_1?s=aps&amp;ie=UTF8&amp;qid=1393604845&amp;sr=1-1-catcorr&amp;keywords=pumpkin+protein+powder">this one</a>.</p>
+]]></content>
+  </entry>
+  
+</feed>

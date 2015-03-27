@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Tag: Son of Store Engine | ebdrummond]]></title>
+  <link href="http://ebdrummond.com/blog/tags/son-of-store-engine/atom.xml" rel="self"/>
+  <link href="http://ebdrummond.com/"/>
+  <updated>2015-03-26T23:32:48-05:00</updated>
+  <id>http://ebdrummond.com/</id>
+  <author>
+    <name><![CDATA[Erin Drummond]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Son of Store Engine Retrospective]]></title>
+    <link href="http://ebdrummond.com/2013/04/son-of-store-engine-retrospective"/>
+    <updated>2013-04-19T16:16:00-05:00</updated>
+    <id>http://ebdrummond.com/2013/04/son-of-store-engine-retrospective</id>
+    <content type="html"><![CDATA[<p>Son of Store Engine was an interesting project for me.  I started off feeling a little shaky on my Rails knowledge versus Store Engine, and I still feel like I have a ton to learn, but towards the end of the project I felt like the struggle I put in started to pay off.  In the beginning of the project, I began to realize I wasn&rsquo;t ever really sure how my params were being passed back and forth, what the heck was in my session, how I could get information from point A to point B, and by the end, I felt like I understood these things better.  A huge part of this process was the better errors gem and information contained there by default, and in the live shell.  It was enormously helpful to be able to inspect params, what was in my session, and be able to play around in the live shell to manipulate this information to output what I needed.  We had used better errors in Store Engine, but I felt like I didn&rsquo;t know how to harness it&rsquo;s power to my advantage until the latter part of this project.</p>
+
+<p>I also got the chance to put processor controllers and models into play for information that we wanted to render on one page, but involved four different forms and databases.  This was something I attempted to do last project and failed pretty miserably, but I had really wanted to try this project.  It took a little wrangling to get it, but I think the final result was pretty clean code and I&rsquo;m so glad I know how to do this now.  Here&rsquo;s a snippet:</p>
+
+<pre><code>class Checkout
+
+  def initialize(params)
+    @guest = Customer.find_by_email(params[:guest][:email])
+    @guest ||= Customer.create(params[:guest])
+    @shipping = params[:shipping_address]
+    @billing = params[:billing_address]
+    @credit_card = params[:credit_card]
+  end
+
+  def shipping
+    new_shipping = ShippingAddress.new(@shipping)
+    new_shipping.customer_id = @guest.id
+    new_shipping.save
+    new_shipping
+  end
+
+  def billing
+    new_billing = BillingAddress.new(@billing)
+    new_billing.customer_id = @guest.id
+    new_billing.save
+    new_billing
+  end
+
+  def credit_card
+    new_credit_card = CreditCard.new(@credit_card)
+    new_credit_card.customer_id = @guest.id
+    new_credit_card.save
+    new_credit_card
+  end
+end
+</code></pre>
+
+<p>Overall, I think our project wasn&rsquo;t great (there&rsquo;s a lot more I would have liked to do with a few extra days), but I think it was pretty good.  The final result is here: <a href="http://pink-sose.herokuapp.com/">pink-sose.herokuapp.com</a></p>
+
+<p>It also feels weird to be at the halfway point of gSchool.  It feels like ages ago we were doing logic problems for warmups and getting stressed over Event Manager.  At the same time, it went by quickly with all we&rsquo;ve been doing, and I&rsquo;m hoping that July 19th comes as quickly as well.  My big hope for the second half of the program is that I can manage the stress a little better, and maximize my learning with the time I&rsquo;m putting in.  I&rsquo;ve been putting in about 12 to 14 hours a day during the weekdays on average, and 8 to 12 on weekends when we&rsquo;re working on a project.  At the same time, I feel like there&rsquo;s still so much that we&rsquo;re exposed to that I&rsquo;m not learning as well as I&rsquo;d like, and the physical exhaustion and frustration over all the things I haven&rsquo;t been able to pick up yet are taking their toll.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Son of Store Engine Midway Retrospective]]></title>
+    <link href="http://ebdrummond.com/2013/04/son-of-store-engine-midway-retrospective"/>
+    <updated>2013-04-12T10:53:00-05:00</updated>
+    <id>http://ebdrummond.com/2013/04/son-of-store-engine-midway-retrospective</id>
+    <content type="html"><![CDATA[<p>It&rsquo;s been quite the week.  We started Son of Store Engine, which takes code from our last project and adds on to it - but we can&rsquo;t sacrifice any of the functionality from the last project in reworking the code.  I am happy that we have a project like this and not everything is built from scratch.  The reality is that most everyone will be working with legacy code when we&rsquo;re done, and this is really good practice for me.  So far, I&rsquo;ve found it to be harder than building something from scratch in a lot of respects; I first have to understand what the code is doing (some of it is written in a style I&rsquo;m not used to).  Then, there have been a few times I&rsquo;ve built on top of something or tweaked something seemingly insignificant, and previous functionality has broken, so it&rsquo;s an extremely valuable lesson.</p>
+
+<p>It&rsquo;s been really different in this project for me versus most other projects I&rsquo;ve worked on, at least so far.  Most of my last projects (Traffic Spy maybe excepted), I&rsquo;ve felt like I&rsquo;ve contributed a good percentage of the code base and functionality.  This project, what I&rsquo;ve worked on so far, it has felt like I haven&rsquo;t written as much code or functionality as I&rsquo;d like; it&rsquo;s been a tedious process for a lot of the functionality so far.  I&rsquo;m hoping that it speeds up some from here, but I will also try to keep in mind what Chad Fowler mentioned in our talk with him today - when working with legacy code, a lot of it can be tedious, and that&rsquo;s just how it is.  I&rsquo;m hoping I can also learn some common things to look for so I don&rsquo;t get so hung up spending time on what should be small fixes.  For example, I struggled for about an hour yesterday wondering why the functionality I wrote to remove a line item from a cart when the quantity was set to zero wasn&rsquo;t working.  Turns out quantity was being stored as a string and not an integer.  On the plus side, it felt damn good once I got that fix working!</p>
+
+<p>On the last project, I felt relatively confident with Rails (although I still asked Kareem for help a good amount of times when I got stuck, which he was happy to provide), but I actually feel less confident with this project.  I think there&rsquo;s just more we&rsquo;re delving into with this project and I&rsquo;m picking this up more slowly.  One thing I really have enjoyed is since I have a lot more questions this time that can&rsquo;t really be answered within the team, I&rsquo;ve been reaching out more to &lsquo;real&rsquo; developers for an answer, and I&rsquo;ve found that in answering my question, they&rsquo;ve also taught me other things that I didn&rsquo;t even realize I didn&rsquo;t yet know.  I had what I thought was a quick question for Horace from LivingSocial last night, and in answering it, he taught me about custom routes for controllers beyond the 7 verbs, which actually fascinated me way more than my question.  I&rsquo;m also really looking forward to mastering the art of using a processor class so that I can have forms for multiple databases on one page; I tried that in my last project but we could only get the functionality working halfway, so we had to rip it out and never had time to implement it properly.</p>
+
+<p>I&rsquo;m also really looking forward to working with my mentor.  My first mentor had to back out do to time constraints, but I&rsquo;m set to work with my new mentor, Jim Denton, on Monday after class.  Jim works at Groupon, and I&rsquo;ve worked with him before to address questions as they&rsquo;ve come up in projects.  He&rsquo;s been super helpful when I&rsquo;ve worked with him in the past, so I&rsquo;m looking forward to working with him as a mentee.  I have a lot of general questions I want to ask (like the processor class), but it will also be really helpful to be able to bounce project ideas off of him and hopefully come up with solutions to problems I don&rsquo;t even know I have yet.</p>
+]]></content>
+  </entry>
+  
+</feed>

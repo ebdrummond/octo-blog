@@ -1,0 +1,288 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Traffic Spy Retrospective - ebdrummond</title>
+  <meta name="author" content="Erin Drummond">
+
+  
+  <meta name="description" content="Traffic Spy is another one for the books. This was definitely the most interesting project I have worked on so far, but the start of the project was &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://ebdrummond.com/2013/03/traffic-spy-retrospective">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="ebdrummond" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="/javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+
+  
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">ebdrummond</a></h1>
+  
+    <h2>it&#8217;s never too late to hit restart</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="https://www.google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="sitesearch" value="ebdrummond.com">
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+  <li><a href="/about">About</a></li>
+  <li><a href="https://twitter.com/ebdrummond" target="_blank">Twitter</a></li>
+  <li><a href="https://github.com/ebdrummond" target="_blank">Github</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+  <article class="hentry" role="article">
+    
+  <header>
+    
+      <h1 class="entry-title">Traffic Spy Retrospective</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2013-03-08T10:02:00-06:00'><span class='date'><span class='date-month'>Mar</span> <span class='date-day'>8</span><span class='date-suffix'>th</span>, <span class='date-year'>2013</span></span> <span class='time'>10:02 am</span></time>
+        
+           | <a href="#disqus_thread"
+             data-disqus-identifier="http://ebdrummond.com">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>Traffic Spy is another one for the books.  This was definitely the most interesting project I have worked on so far, but the start of the project was also the most foreign to me.  I feel pretty good about the project now that it&rsquo;s done, but I would be completely remiss if I didn&rsquo;t mention how thankful I am to have worked with Kyle as my partner.  He did a lot of the mental heavy lifting for this project and was able to figure out how to implement a lot of the logic we worked through at the start.  I mostly took what he had figured out and applied it to other classes and methods and erb files, so I feel like I learned a lot in the project, but I definitely think he carried the project more than I did in terms of figuring out the original implementations.</p>
+
+<p>One of the things I really liked about this project was once something was built, we could see a tangible output on our site.  With Sinatra + shotgun, if I tweaked the sort of something here or the look of the html there, I could see immediately exactly what I had done.  It was also pretty exciting to show this off to my friends - I don&rsquo;t think showing them Sales Engine would have had the same appeal.</p>
+
+<p>As I move forward, I definitely want to learn how to better control my controller - I noticed most people had the problem that they were able to keep their model classes (relatively) tidy, but the controller was a bit crazy.  Especially with all the if else logic, I&rsquo;d like to learn how to clean this up for the next project, but it was neat to finally get a handle on the MVC model - when we had talked about it in class, I really didn&rsquo;t fully appreciate how it worked, but now that I&rsquo;ve worked with it, I must say I&rsquo;m a fan.</p>
+
+<p>I think if I could go back and re-start this project from the beginning, I would spend more time screwing around with Sequel and get a better idea of database manipulation.  I got the basics of it, but once we were doing higher level combining of tables and searches, I knew logically what I wanted to do, but I couldn&rsquo;t fully figure out the implementation on my own.  We were really lucky, though, in having Frank and Jeff help to guide us in setting up the project and taking our time laying everything out before we started to write any code.  Frank definitely led us in the right direction with creating databases that were a lot more work upfront, but then everything fell into place relatively quickly.  We actually had a pretty relaxed pace the second week of the project because of this - we realized over the weekend most other groups were ahead of us, so we worked pretty long hours over the weekend to catch up and stay on pace, but the way we had structured our project, once the database connections were figured out, everything else was pretty quick to implement.  I hadn&rsquo;t really realized just how quickly the second half would go, but it was nice not to have a ton to scramble on during week two, so I had time to continue to study and play around with our code.</p>
+
+<p>Also this week, I was able to catch the Obama For America team at Galvanize.  I knew I would find the content interesting, but I wasn&rsquo;t really prepared for how much the progressive nerd in me would come out.  It was so exciting to hear them, and I can only imagine the insane emotional rush and the pride they must have felt on election night, realizing they played a big role in making it happen.  When I originally graduated college, the thing I wanted most in the world was to work for a non-profit whose mission I cared deeply about, and then go out and change the world.  That didn&rsquo;t much work out, but I&rsquo;m pretty excited that with this new career, I&rsquo;ll have another crack at that dream, whether it&rsquo;s working directly for an awesome non-profit or socially conscious/progressive company, working with a company who does work for those organizations, or at the very least being able to lend a hand through volunteering.</p>
+
+<p>I&rsquo;m not sure I&rsquo;d want to completely put my life on hold to work on a political campaign like they did (I worked a lot of 60 hour weeks at my last job and felt significant burn out after a while; even if I&rsquo;m passionate about what I&rsquo;m doing, I don&rsquo;t think I could sustain the pace that long), but it is really awesome to know I can still contribute meaningfully to causes I care deeply about.  Back in DC, there was a group that coordinated volunteers with professional skills to assist non-profit institutions (I can&rsquo;t for the life of me remember the name) that Brock used to volunteer for, working on projects like building a website for a local homeless shelter.  I&rsquo;m wondering if there&rsquo;s anything comparable here in Denver and if not, how hard it would be to go about starting something like that.</p>
+
+<p>All in all, it&rsquo;s been a pretty good week.  I&rsquo;m hoping a lot of the database and web stuff I learned has sunk in enough to help propel me through the next project, being able to contribute more upfront, but I feel in a relatively good place right now, and mostly just excited to keep going.  It&rsquo;s starting to sink on a whole new level lately just how damned lucky I am to be here, and I want to squeeze out of this experience everything I can.</p>
+</div>
+
+
+
+    <footer>
+      <p class="meta post-footer">
+        
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Erin Drummond</span></span>
+
+        
+
+
+
+
+<time class='entry-date' datetime='2013-03-08T10:02:00-06:00'><span class='date'><span class='date-month'>Mar</span> <span class='date-day'>8</span><span class='date-suffix'>th</span>, <span class='date-year'>2013</span></span> <span class='time'>10:02 am</span></time>
+        
+
+<span class="tags">
+  
+    <a class='tag' href='/blog/tags/gschool/'>gSchool</a>, <a class='tag' href='/blog/tags/traffic-spy/'>traffic spy</a>
+  
+</span>
+
+
+      </p>
+
+      <p class="post-nav">
+        
+          <a class="basic-alignment left" href="/2013/03/eloquent-ruby-final-reading-group" title="Previous Post: Eloquent Ruby Final Reading Group">&laquo; Eloquent Ruby Final Reading Group</a>
+        
+        
+          <a class="basic-alignment right" href="/2013/03/html-and-css-reading-group-1" title="Next Post: HTML & CSS Reading Group 1">HTML & CSS Reading Group 1 &raquo;</a>
+        
+      </p>
+
+      
+        <div class="post-sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://ebdrummond.com/2013/03/traffic-spy-retrospective" data-via="ebdrummond" data-counturl="http://ebdrummond.com/2013/03/traffic-spy-retrospective" >Tweet</a>
+  
+  
+  
+    <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
+  
+</div>
+
+      
+
+      
+        <section>
+          <h1>Comments</h1>
+          <div id="disqus_thread" aria-live="polite">
+            
+  <script type="text/javascript">
+        var disqus_shortname = 'itsnevertoolatetohitrestart';
+        
+          
+          // var disqus_developer = 1;
+          var disqus_identifier = 'http://ebdrummond.com/2013/03/traffic-spy-retrospective';
+          var disqus_url = 'http://ebdrummond.com/2013/03/traffic-spy-retrospective';
+          var disqus_script = 'embed.js';
+        
+      (function () {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      }());
+  </script>
+
+
+          </div>
+        </section>
+      
+
+    </footer>
+  </article>
+</div>
+
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/2013/08/moving-on">Moving On</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2014/02/the-best-sore-throat-smoothie-ever">The Best Sore Throat Smoothie, Ever</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2013/10/my-first-five-weeks-at-table-xi">My First Five Weeks at Table XI</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2013/09/chile-finally">Chile. Finally</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2013/08/a-whole-mess-of-thank-yous">A Whole Mess of Thank Yous</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating&#8230;</li>
+  </ul>
+  
+  <a href="https://github.com/ebdrummond">@ebdrummond</a> on GitHub
+  
+  <script type="text/javascript">
+    $(document).ready(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'ebdrummond',
+            count: 0,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2015 - Erin Drummond -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+  <div id="fb-root"></div>
+
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) {return;}
+    js = d.createElement(s); js.id = id; js.async = true;
+    js.src = "//connect.facebook.net/en_US/all.js#appId=212934732101925&xfbml=1";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+  </script>
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = '//platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

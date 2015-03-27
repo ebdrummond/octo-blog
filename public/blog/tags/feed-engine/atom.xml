@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Tag: Feed Engine | ebdrummond]]></title>
+  <link href="http://ebdrummond.com/blog/tags/feed-engine/atom.xml" rel="self"/>
+  <link href="http://ebdrummond.com/"/>
+  <updated>2015-03-26T23:32:48-05:00</updated>
+  <id>http://ebdrummond.com/</id>
+  <author>
+    <name><![CDATA[Erin Drummond]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Feed Engine Retrospective]]></title>
+    <link href="http://ebdrummond.com/2013/05/feed-engine-retrospective"/>
+    <updated>2013-05-24T15:47:00-05:00</updated>
+    <id>http://ebdrummond.com/2013/05/feed-engine-retrospective</id>
+    <content type="html"><![CDATA[<p>Ah - FeedEngine is in the books.  For some reason, this was a difficult project to get through, even though I loved what we were building.  It seems like we&rsquo;ve reached a point in the class where a lot of people are feeling burned out, and I think that impacted some of our team this project - we ended up dropping a lot of the functionality that I wanted to implement because we couldn&rsquo;t get through it all with the amount of work the group as a whole was putting in.</p>
+
+<p>At the same time, I learned a lot from this project.  The two things I&rsquo;m happiest learning about are how to interact with external APIs (Kyle and I implemented the Instagram service, and I implemented the Foursquare service), and refactoring my code to extract logic from the views and controllers, and even the model.  For this, I have to thank Raphael.</p>
+
+<p>An example of refactoring can be seen in our implementation of the logic relating to the user show page.  For this page, we needed to break a user&rsquo;s trips out into current trips, past trips, and upcoming trips, AND we needed to determine whether the trip was private AND we needed to determine, if the trip was private, if the current viewer was authorized to view the trip.  Sounds easy, right?  I really wasn&rsquo;t expecting it to be that horribly difficult, but it ended up being harder than I thought to implement all of this logic in one place.</p>
+
+<p>The way I originally wrote this part of the code, I had current, past, and upcoming trips in the Trip model, and handled the logic for whether the current user could view each trip in the controller.  Raph put a stop to that.  We ended up extracting all of this logic into a UserShow class, which took in the current user and the user whose profile was being viewed, ran through each trip to see if it was private and if the current user had viewing rights, and then split the trips into their correct timeframe.  You can view the final implementation here: <a href="https://github.com/raphweiner/feed_engine/blob/master/app/lib/user_show.rb">github.com/raphweiner/feed_engine/blob/master/app/lib/user_show.rb</a></p>
+
+<p>I also learned to place even more value on communicating with your team, especially when you&rsquo;re touching someone else&rsquo;s code.  There were a number of times that I pulled down master to build on code I had previously implemented, and found it had been refactored so much that I had to spend half an hour just figuring out what the heck it was now doing.  Worse, there were times files I had been working on were deleted or the refactoring broke the code I had originally written.  This was pretty frustrating for me, and I&rsquo;m even more aware now that if you&rsquo;re touching someone else&rsquo;s code, it&rsquo;s a great idea to work with them first.</p>
+
+<p>Overall, I think our project is a good first step, but I wish it went further.  There&rsquo;s a lot more functionality I would like to build out and changes I&rsquo;d like to made to the front end to make it look sleeker as well.  I&rsquo;d link to the project, but Jeff is turning off the extra background workers he had provisioned, so the app will no longer work.  I&rsquo;m taking some time off between graduating gSchool and starting a job, so one thing I&rsquo;d love to do is to keep working on Kreepr and get it to a place I&rsquo;m happier with, with more features, more security and background logic, and a cleaner look.</p>
+
+<p>I&rsquo;m also really excited to be starting our independent project next week.  I don&rsquo;t have 100% sign off yet, but I had talked to Katrina about my idea, and it sounds like I&rsquo;ll be able to do PART of it - my original idea is too large a project to do independently in 9 days.  What I&rsquo;m going to be doing is making a website for my sister, who is a massage therapist.  Once it&rsquo;s completely done, I&rsquo;d like to have functionality to let Meghan set her schedule with a base weekly schedule that autogenerates up to two months out, with the ability to go in and tweak individual days.  In addition to a confirmation e-mail when an appointment is scheduled and a reminder e-mail a day or two out, I&rsquo;d also like to implement text messaging a few hours before an appointment to remind the customer, and let them text back if they need to cancel the appointment.  I&rsquo;d like to integrate with Yelp to show her overall review count, and maybe recent reviews.  Lastly, I&rsquo;d like the ability to allow customers to pre-pay for individual massages or massage packages online, and allow Meghan to charge a cancellation fee for missed appointments.</p>
+
+<p>One of the requirements for this project is to build an API and gem on our own, which I think fits in nicely with the scheduling component.  There are a few other gems out there that I found, but none of them have been maintained in the past year; I&rsquo;d also love if my gem would give back to the community so that other people can use it for their own projects as well.</p>
+
+<p>I&rsquo;m really excited to be doing this project, for a few reasons.</p>
+
+<ol>
+<li>I think the building out the scheduling component will be a pretty difficult, and it&rsquo;s a challenge that I think will be extremely rewarding.</li>
+<li>I really want to give this gift to my sister.  Not only is she basically one of the most wonderful, caring, compassionate people on the planet and I want to help her grow her business, she also hooks me up with free massages.</li>
+<li>I&rsquo;m really glad to be doing this project while I&rsquo;m in gSchool.  Since this is a site that will actually be used, security is a big concern and I want to be sure that everything is locked down.  It will be really good to have that second set of eyes from my instructors so they can let me know if there are any vulnerabilities that I overlooked.</li>
+</ol>
+
+
+<p>So, super excited to get cracking on that, but also, not going to lie - I&rsquo;m excited about the long weekend too!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Feed Engine Week 1]]></title>
+    <link href="http://ebdrummond.com/2013/05/feed-engine-week-1"/>
+    <updated>2013-05-10T12:06:00-05:00</updated>
+    <id>http://ebdrummond.com/2013/05/feed-engine-week-1</id>
+    <content type="html"><![CDATA[<p>The thing I&rsquo;m most excited about with my FeedEngine project is that once it&rsquo;s finished, I&rsquo;ll actually want to use it.  We&rsquo;re building a group travel blog that lets you integrate the Twitter, Instagram, and Foursquare activities for all travelers within a trip.  I really love to travel and usually am pretty poor about documenting my travels aside from taking pictures and posting them to Facebook when I get home, so this is a product I will actually use.  I&rsquo;m sure other people who want to document a group trip in this way would like to use it as well - although to be honest, I don&rsquo;t think it&rsquo;s a bad product for just a solo trip either.</p>
+
+<p>One thing I am going to be cautious on with this project is that from everyone I talked to at Hungry Academy, this was their hardest project.  We have three weeks to get it done, but I&rsquo;m conscious of how quickly that due date catches up to you.  One thing my team is doing is that we have some ideas in the back of our mind of functionality we would like to create, but we&rsquo;re not going to start building it at all until the base functionality is completed and we&rsquo;re sure we have the time to put into the extra features before the project is due - we&rsquo;re full assing a small set of features instead of half assing a large set.</p>
+
+<p>For this project, I&rsquo;m working with another team member on the front end.  So far, I really haven&rsquo;t enjoyed working on the front end in projects - it feels tedious and mind numbing to me, so I&rsquo;ve tended to work on the back end, which I strongly prefer.  I&rsquo;m trying to take myself out of my comfort zone a little so that I can learn more of the front end, try to use some of the jQuery I learned, and just get the basics down.  As much as I really don&rsquo;t want a job focusing on front end development, the reality is that most jobs will touch it to some degree, and I want to know the basics for when that does happen.  I also feel pretty lucky in that this is part of the project I will probably be able to work with Brock on when I get stuck - we&rsquo;re far enough in Rails that he has no idea what&rsquo;s going on, so I haven&rsquo;t been able to work with him on questions, and that&rsquo;s one of the things I miss from when we were just learning Ruby.  It was fun to sit down and pair/troubleshoot with him, and I should be able to do that with him with the front end.  On the other hand, I&rsquo;m hoping to finish up the nuts and bolts of the front end so that I can do some of the back end code for this project as well.</p>
+
+<p>Another thing that&rsquo;s on the back of my mind as we head nearer and nearer to graduation is finding a job once gSchool is complete.  If possible, I&rsquo;d really like to stick around in Denver; if I can&rsquo;t find anything here, Portland is at the top of my list.  Aside from geography, I&rsquo;m simultaneously nervous and excited about finding a company that&rsquo;s a good fit for me.  When looking at a company, one of the things that will be at the top of my list is finding a company that values ongoing learning for their newer hires.  I have learned so much in this program and still have 10 weeks left, but I know that I&rsquo;ll still have so much to learn and fine tune when I&rsquo;m done, and I want to be in an atmosphere that is understanding of that.  Also, just at a base level, I want to work with people I get along with and that communicate well.  I&rsquo;ve been in jobs where everyone gets in, puts their head down, no one talks to each other, and then you go home - that&rsquo;s a really awful environment.  I think there&rsquo;s a stereotype that that&rsquo;s what programmers do, but so far I&rsquo;ve found it to be completely untrue.</p>
+
+<p>I&rsquo;m hoping to work at a company that has a decent sized dev team - I&rsquo;m not yet comfortable enough in my skills that I feel ready to work at a small startup where I&rsquo;m one of two or three people writing code.  I&rsquo;d also really like to find a place that&rsquo;s laid back, where there is opportunity to move up with the company and work on more complex projects as my skills improve, and lets me draw on the soft skills I&rsquo;ve built up from my previous life before I started gSchool.  It&rsquo;s not the number one focus of mine, but I also am looking at a decent compensation package commensurate with my skills and the previous experience I bring with me.</p>
+
+<p>From talking with others in the program, I think we&rsquo;re all a little nervous and very excited to see where we all end up in three months.  At the end of the day, I&rsquo;m going to value my intuition - when I interviewed with LivingSocial, I knew it was the right job for me at the time when my face hurt from smiling after I left the interview.  I can&rsquo;t put my finger on it, but it&rsquo;s this electric feeling where things just feel like they&rsquo;re the missing puzzle piece - that&rsquo;s what I want.</p>
+]]></content>
+  </entry>
+  
+</feed>

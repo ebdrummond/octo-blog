@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Tag: New Blog | ebdrummond]]></title>
+  <link href="http://ebdrummond.com/blog/tags/new-blog/atom.xml" rel="self"/>
+  <link href="http://ebdrummond.com/"/>
+  <updated>2015-03-26T23:32:48-05:00</updated>
+  <id>http://ebdrummond.com/</id>
+  <author>
+    <name><![CDATA[Erin Drummond]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[My Personal TDD Challenge]]></title>
+    <link href="http://ebdrummond.com/2013/05/my-personal-tdd-challenge"/>
+    <updated>2013-05-10T20:32:00-05:00</updated>
+    <id>http://ebdrummond.com/2013/05/my-personal-tdd-challenge</id>
+    <content type="html"><![CDATA[<p>I&rsquo;m not the happiest with middleman and want to address a few challenges, so I&rsquo;m creating a blog from scratch with Rails, hopefully without needing to reference the Blogger tutorial at all.</p>
+
+<p>My challenges:</p>
+
+<ol>
+<li>Create an attractive design to practice front end development and showcase a blog I can be proud to show off - I really don&rsquo;t like the current look of my blog, and especially as I&rsquo;m increasingly going to be showing it off to potential employers, I need to stand behind and be proud of my work.</li>
+<li>Practice my Rails skills from soup to nuts.  I love working on teams, but it necessitates touching only part of the code.  This will be good practice for me to make sure I understand the process beginning to end, and it&rsquo;s great practice before our individual project in two weeks!</li>
+<li>Most importantly, 100% of the code will be written in TDD.  Literally not one line of code will be written without a failing test.  I haven&rsquo;t always been the best about adhering to strict TDD, and I need to get better - I know firsthand why it&rsquo;s important, and no skill is going to magically appear; I need to practice it.</li>
+</ol>
+
+
+<p>So&hellip; wish me luck!  Hopefully you&rsquo;ll see a finished product I&rsquo;m proud to stand by in no time :)  The biggest challenge I&rsquo;m anticipating is just finding time to work on it with all the other projects I&rsquo;m working on, but honestly, since there&rsquo;s no firm deadline and I am going at my own pace, working on it so far has almost felt like a break from everything else.  It is a good feeling - programming can be tough, but even just the small amount of time I&rsquo;ve put in so far reminds me of how much I love to do it.</p>
+]]></content>
+  </entry>
+  
+</feed>

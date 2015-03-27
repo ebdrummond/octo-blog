@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Tag: gSchool | ebdrummond]]></title>
+  <link href="http://ebdrummond.com/blog/tags/gschool/atom.xml" rel="self"/>
+  <link href="http://ebdrummond.com/"/>
+  <updated>2015-03-26T23:32:48-05:00</updated>
+  <id>http://ebdrummond.com/</id>
+  <author>
+    <name><![CDATA[Erin Drummond]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[A Whole Mess of Thank Yous]]></title>
+    <link href="http://ebdrummond.com/2013/08/a-whole-mess-of-thank-yous"/>
+    <updated>2013-08-18T17:34:00-05:00</updated>
+    <id>http://ebdrummond.com/2013/08/a-whole-mess-of-thank-yous</id>
+    <content type="html"><![CDATA[<p>I know this is a little late, but better late than never, right?</p>
+
+<p>There&rsquo;s a bunch of people I need to thank for their help in supporting me throughout gSchool.  Without their help, it wouldn&rsquo;t have been as rewarding an experience for me; without some of their help, I wouldn&rsquo;t have been able to do it at all.  A huge thank you to everyone listed here, and to a hundred others who helped me along the way.</p>
+
+<ul>
+<li>First off, to <a href="http://twitter.com/verdi_michael">Michael Verdi</a> and <a href="http://twitter.com/wengzilla">Ed Weng</a> of LivingSocial, for holding the intro to programming workshop that kicked my entire adventure off.  If it hadn&rsquo;t been for their workshop, I would have never realized a) that I could do this and b) how fulfilling it is.</li>
+<li>There were a lot of people who helped me out when I got stressed, but <a href="http://twitter.com/edatrix">Lauren Spath Luhring</a> and <a href="http://twitter.com/aimzatron">Aimee Maher</a> were the two people who were there closest to me through the most stressful times and put a smile back on my face.  Thanks, ladies!</li>
+<li>All of the other <a href="http://people.jumpstartlab.com">gSchool students</a> deserve a big thanks too.  Everyone brought something valuable to the table, and everyone was so helpful - there was a genuine feeling of teamwork throughout the class, and I never felt like anyone was trying to stand up taller by standing on someone else.  I learned so much from all my classmates and hope I helped them learn, too.</li>
+<li>Of course, the fabulous <a href="http://jumpstartlab.com/team">gSchool instructors</a> were, well, fabulous throughout the course.  One of the reasons I chose gSchool was because of the quality of the instructors, and they didn&rsquo;t let me down.  They knew their shit, were great at teaching the full group, and were also great at providing one on one help and advice.  <a href="http://twitter.com/kytrinyx">Katrina</a>, especially, took the time to give me a lot of one on one help and also made sure I knew she believed in me, letting me know what I was doing great at and what I needed to work on.  I really appreciate the time they all put into all of us students.</li>
+<li>My first mentor, <a href="http://twitter.com/decoydrone">Jim Denton</a>, was amazing.  He was the one who really pushed me and taught me the value of testing by pointing out all the unnecessary headaches I was causing myself.  I really appreciated all the time he spent with me, sometimes an entire afternoon, whipping me into shape and showing me a new way of thinking.</li>
+<li>A huge thank you also to my second mentor, <a href="http://twitter.com/tundal45">Ashish Dixit</a>.  Ashish has had awesome ideas for how to refactor some of my gnarliest code, and also introduced me to Table XI - something I can&rsquo;t thank him for enough.  More than that, he&rsquo;s helped point me in the right direction with my jitters on starting my first programming job, and has offered to continue to be my mentor post-gSchool (which is awesome since we&rsquo;ll both be in Chicago!).  He is amazingly smart, so open to helping, and really excited about the broader Ruby community - I feel so lucky to have been teamed up with him.</li>
+<li>More than anyone else though, my biggest thanks go out to my wonderful husband, <a href="http://twitter.com/brock">Brock</a>.  I quite literally could not have done this without his support, and support me he did.  He was so excited for me when I decided I wanted to become a programmer, and didn&rsquo;t mind relocating with me to Denver.  Throughout the course he has done most of the housework and took care of the dog when I was studying all the time and helped me out with programming questions throughout the course whenever he could.  He was also so emotionally supportive when I was frustrated, stressed, and drained, and is relocating with me all over again to Chicago without complaint.  I don&rsquo;t know how I got so lucky to have him.</li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[gSchool Is Over]]></title>
+    <link href="http://ebdrummond.com/2013/08/gschool-is-over"/>
+    <updated>2013-08-16T21:39:00-05:00</updated>
+    <id>http://ebdrummond.com/2013/08/gschool-is-over</id>
+    <content type="html"><![CDATA[<p>I haven&rsquo;t been updating this as much as I should be, but wanted to post an update on my last month of gSchool and what&rsquo;s been going on since it&rsquo;s over.</p>
+
+<p>My last month of gSchool was pretty hectic with job searching.  I really wanted to take my time to interview with a variety of companies, and find the place that was the best fit for my top two priorities: firstly, I wanted to find a place that was a good fit for me culturally, where I liked the people I was working with, and looked forward to coming in and working with them every day, and where their values were consistent with my own.  Secondly, it was imperative that I work with a company where I could continue to learn, and that would nurture my ongoing learning process.</p>
+
+<p>I didn&rsquo;t want to just take the first thing that came along, so I really took the time to get to know a number of companies to find the best one for me.  This meant a lot of phone interviews, skype interviews, in person interviews, and take home coding challenges.  I felt pretty bad, because given how busy I was with the interview process, I wasn&rsquo;t able to put in the time that I wanted to on my group projects.  Everyone understood though; everyone else was doing the same.</p>
+
+<p>At the end of it, I came away with three job offers from wonderful companies, any of which I could see myself enjoying culturally, and where I would learn a ton from awesome co-workers and interesting projects.  It was especially difficult as the offers were all from my top three cities - Chicago, Portland, and Denver.  In the end, I decided to accept the offer as a software developer with <a href="http://www.tablexi.com">Table XI</a> in Chicago, for a few reasons:</p>
+
+<ul>
+<li>I love Chicago.  It&rsquo;s an amazing city, with a ton to do.  I&rsquo;ve always considered myself a city person, and I am really excited to get back to a large city with a ton of cultural options, great public transit, people from all over the world - all in America&rsquo;s third largest city.  It helps a lot too that even though it&rsquo;s a huge city, it&rsquo;s still the Midwest, so people are incredibly nice there.  Also the cost of living, especially compared to DC, is great.  Also I have a bunch of friends from college there.  Also the food there is incredible.  Really, just a lot of alsos.</li>
+<li>I&rsquo;m back within driving distance of my family, which I haven&rsquo;t been since college.  Speaking of college, I&rsquo;m also within driving distance of East Lansing, so I can go back home and catch some Spartan football and basketball games!  Go Green!</li>
+<li>Most importantly, I felt that Table XI was the very best fit for me personally.  There are so many things that I love about them, and throughout the interview process, there were a hundred little moments where I just knew this was where I was supposed to be.  The people are all amazingly smart, excited about the work they&rsquo;re doing, happy to help, and yet humble and super nice.  It&rsquo;s a consultancy, so there&rsquo;s a bunch of different projects they get to work on.  They do a lot of work with community groups and non-profits, which is a great fit for my social relations background - even though I&rsquo;m not saving the world full time anymore, it&rsquo;s still one of my values.  The people stay there long term because they genuinely love working there.  There&rsquo;s about ten more pages worth of things I could say about how great Table XI is, but long story short - I&rsquo;m unbelievably excited to start working there and am so thankful I have this opportunity.</li>
+</ul>
+
+
+<p>The actual end of gSchool has been bittersweet.  On one hand, I&rsquo;m happy the madness is over and excited to be moving on to my new job, but on the other, I really miss working with all my classmates - they were amazing people and I made some good friends there.  We had a big party the last day, both at Galvanize and later on at Chris&rsquo;s house, and it was so good to let everything out and spend one last (quite memorable) night with everyone, but I also realized this is likely the last time we were all going to be together.</p>
+
+<p>Since gSchool ended, it&rsquo;s still been a whirlwind.  We started looking into relocating to Chicago, I flew out to Chicago to find an apartment (success!  We&rsquo;ll be living in West Lakeview), we visited our friends in Chile (separate post forthcoming), and now I&rsquo;m trying to cram in all the Denver things I didn&rsquo;t have time to do during gSchool, and meeting up with all my friends here one last time before I leave.  On top of that, I need to pick my sister&rsquo;s New Leaf Massage site back up, and have some books I want to read before starting with Table XI, so this is definitely not a lazy vacation for me!  I did get some reprieve on New Leaf though - my sister just found out she&rsquo;s relocating to Phoenix for her husband&rsquo;s job, and it takes about six months to get set up as a massage therapist in the state, so I&rsquo;m hoping to have everything ready to go by that time.</p>
+
+<p>So - crazy and exciting times, and I&rsquo;m looking forward to this next chapter!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Individual Project Wrap Up]]></title>
+    <link href="http://ebdrummond.com/2013/06/individual-project-wrap-up"/>
+    <updated>2013-06-07T10:12:00-05:00</updated>
+    <id>http://ebdrummond.com/2013/06/individual-project-wrap-up</id>
+    <content type="html"><![CDATA[<p>It&rsquo;s difficult to describe this as the &lsquo;wrap-up&rsquo; to my project, because there is still a ton of work that I am going to do to it.  I have a pretty massive list at home of all the things I&rsquo;m planning on tweaking, adding, removing, optimizing, addressing - ALL THE INGs.  Still, at the end of the formal project portion of this undertaking, I&rsquo;m pretty proud of my work.  There&rsquo;s things I&rsquo;d do differently and a lot I want to make better, but I am really proud that I was able to do this on my own (with some help from instructors and Brock, especially for the Javascript portion) given I&rsquo;ve only been developing for four and a half months.</p>
+
+<p>I knew this project was going to be tough, and the two toughest things for me were dealing with the Javascript, and correctly figuring out the logic for the open time slots on any given day for a given appointment duration the client was requesting.  If the time slots were all one hour long and started on the hour, it would have been easy peasy, but the appointments could be 60 or 90 minutes, and started every half hour.  The final code needs refactoring, but I tested the shit out of it with a context for every contingency of appointment variation, so I know the logic is sound even if the code needs clean up.  This will be especially helpful when I work on Meghan&rsquo;s final site - she actually has appointment times ranging from 30 to 90 minutes with 15 minute increments, and her hours vary by day, with a few days having large gaps in the afternoon.  Now that I know what I&rsquo;m doing, I&rsquo;m confident I&rsquo;ll be able to make these changes for the final product.</p>
+
+<p>One thing I am wondering how to do is make the calendar more flexible.  Right now, I have the days she&rsquo;s off completely blocked out of the calendar; if she decides to open on a random Saturday, I&rsquo;d like for her to be able to do this without me touching the Javascript that controls which days are blocked out in the calendar.  This is something I&rsquo;d like to talk to my mentor about going forward, but it&rsquo;s an interesting problem to solve and I&rsquo;m excited about it.</p>
+
+<p>It was also really cool to see Meghan&rsquo;s reaction when I showed her the final first version of her site.  She was really excited and loves it, which is good since this is the first, first, baby step skeleton version of what her site will eventually be able to do and how it will look - for final roll out, I&rsquo;m planning on engaging the services of Kyle for a few hours to get the design looking good.  I realize my design skills are not very good right now, and I want to give her an actual professional product.</p>
+
+<p>All in all, I&rsquo;m proud of the work I&rsquo;ve done, both with the site and in general with everything I&rsquo;ve learned in the past few months.  There&rsquo;s still a ton to learn and to do with Meghan&rsquo;s site, but this was a solid first iteration and really helped me to realize my own skills as a developer.</p>
+
+<p>Her site can be seen here: <a href="http://www.newleafmassage.net">newleafmassage.net</a></p>
+
+<p>Look for exciting updates once gSchool is complete and I have the time to finish this up!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Individual Project Midway]]></title>
+    <link href="http://ebdrummond.com/2013/05/individual-project-midway"/>
+    <updated>2013-05-31T11:07:00-05:00</updated>
+    <id>http://ebdrummond.com/2013/05/individual-project-midway</id>
+    <content type="html"><![CDATA[<p>My feelings upon starting the individual project were a mixture of excitement and nervousness, weighted towards the former.  It was scary to think though - I was hoping through this project, I&rsquo;d realize I know more than I think I do, but was nervous the opposite would turn out to be true.  I can happily report that, so far, I&rsquo;m feeling my knowledge is right about where I thought it was.  I&rsquo;m not the world&rsquo;s greatest gift to programming, but I&rsquo;m certainly not awful either.</p>
+
+<p>So far, it&rsquo;s been a little bit slow.  I&rsquo;ve managed to get to the point where an admin can sign in, search for a client, and create an appointment for the client.  Once the appointment is created, they get a text via Twilio.  This sounds like a lot, but was actually really simple, and I&rsquo;m working on the hard part now - the logic for time slots and determining which time slots are taken, which are free, and which of the free ones have enough time in them to schedule appointments (if it&rsquo;s a thirty minute timeslot, nothing can be scheduled; if it&rsquo;s a sixty minute timeslot, only the sixty minute massage should show up as an option).</p>
+
+<p>I think once this part is complete, the rest of the MVP will fall into place pretty easily - this is what most of the difficult logic rests upon in the app.  I owe Katrina a huge shout out for her help yesterday.  She helped me to think through how to structure this logic (we have a DayPlanner class, a TimeSlot class, and a Clock class - the last one is because we don&rsquo;t care about the date for a timeslot or dayplanner; only the time), and it would have been a lot messier without her guidance.</p>
+
+<p>I&rsquo;m also really wanting to use AJAX for some of the implementation on the front end.  I&rsquo;d love for the admin appointment scheduling to be on one page - admin searches for a client; once client is selected, the date picker pops up; once date is selected, time picker pops up; once time is selected, massage duration selection pops up with appropriate options given the duration of the available time slot.  I really don&rsquo;t know how to do this, so I&rsquo;m hoping I can get some help from my new mentor.</p>
+
+<p>Speaking of which, I&rsquo;m really excited to be working with Ashish - just from our email conversations so far, he seems awesome.  We&rsquo;re doing a get to know you call on Sunday, so I&rsquo;ll find out more then, but I&rsquo;m excited.</p>
+
+<p>I also am really grateful for the help Jim gave me in the previous mentoring rotation.  He was really great to work with and provided me with great feedback when I was starting to go down paths that didn&rsquo;t make a whole lot of sense in my code.</p>
+
+<p>It is crazy to think there&rsquo;s only seven weeks left.  This has felt like a really long four plus months so far, and at times when the stress level was off the charts it felt like the end of the program was eons away.  Now that I&rsquo;m nearing the end, it&rsquo;s a weird feeling.  I&rsquo;m excited with everything I&rsquo;ve learned so far, and excited to start a new job, but it just feels kind of weird that we&rsquo;re already almost done not that we&rsquo;re at the end.</p>
+
+<p>It is an interesting thing to look back though at where I was a few months ago.  Coming in, I had no clue what I was doing, and for the longest time didn&rsquo;t feel like a real developer.  Now, I&rsquo;m beginning to feel like I can say with confidence that yes, I am a developer.  I can take a problem, and find a way to implement a real solution.  I still have a lot to learn with new styles and refactoring and need help from teammates, mentors, or instructors, but that&rsquo;s not really any different from where most real developers are in real life - most developers work on teams and get advice and feedback from others too.</p>
+
+<p>I still do have to pinch myself to think how far I&rsquo;ve come in just 18 weeks though - this feeling is incredible and I&rsquo;m so glad I made the leap to restart my life as a developer.  It hasn&rsquo;t been easy by any means, but it&rsquo;s sure been rewarding and I can&rsquo;t wait to see what I&rsquo;ll be doing next.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Feed Engine Retrospective]]></title>
+    <link href="http://ebdrummond.com/2013/05/feed-engine-retrospective"/>
+    <updated>2013-05-24T15:47:00-05:00</updated>
+    <id>http://ebdrummond.com/2013/05/feed-engine-retrospective</id>
+    <content type="html"><![CDATA[<p>Ah - FeedEngine is in the books.  For some reason, this was a difficult project to get through, even though I loved what we were building.  It seems like we&rsquo;ve reached a point in the class where a lot of people are feeling burned out, and I think that impacted some of our team this project - we ended up dropping a lot of the functionality that I wanted to implement because we couldn&rsquo;t get through it all with the amount of work the group as a whole was putting in.</p>
+
+<p>At the same time, I learned a lot from this project.  The two things I&rsquo;m happiest learning about are how to interact with external APIs (Kyle and I implemented the Instagram service, and I implemented the Foursquare service), and refactoring my code to extract logic from the views and controllers, and even the model.  For this, I have to thank Raphael.</p>
+
+<p>An example of refactoring can be seen in our implementation of the logic relating to the user show page.  For this page, we needed to break a user&rsquo;s trips out into current trips, past trips, and upcoming trips, AND we needed to determine whether the trip was private AND we needed to determine, if the trip was private, if the current viewer was authorized to view the trip.  Sounds easy, right?  I really wasn&rsquo;t expecting it to be that horribly difficult, but it ended up being harder than I thought to implement all of this logic in one place.</p>
+
+<p>The way I originally wrote this part of the code, I had current, past, and upcoming trips in the Trip model, and handled the logic for whether the current user could view each trip in the controller.  Raph put a stop to that.  We ended up extracting all of this logic into a UserShow class, which took in the current user and the user whose profile was being viewed, ran through each trip to see if it was private and if the current user had viewing rights, and then split the trips into their correct timeframe.  You can view the final implementation here: <a href="https://github.com/raphweiner/feed_engine/blob/master/app/lib/user_show.rb">github.com/raphweiner/feed_engine/blob/master/app/lib/user_show.rb</a></p>
+
+<p>I also learned to place even more value on communicating with your team, especially when you&rsquo;re touching someone else&rsquo;s code.  There were a number of times that I pulled down master to build on code I had previously implemented, and found it had been refactored so much that I had to spend half an hour just figuring out what the heck it was now doing.  Worse, there were times files I had been working on were deleted or the refactoring broke the code I had originally written.  This was pretty frustrating for me, and I&rsquo;m even more aware now that if you&rsquo;re touching someone else&rsquo;s code, it&rsquo;s a great idea to work with them first.</p>
+
+<p>Overall, I think our project is a good first step, but I wish it went further.  There&rsquo;s a lot more functionality I would like to build out and changes I&rsquo;d like to made to the front end to make it look sleeker as well.  I&rsquo;d link to the project, but Jeff is turning off the extra background workers he had provisioned, so the app will no longer work.  I&rsquo;m taking some time off between graduating gSchool and starting a job, so one thing I&rsquo;d love to do is to keep working on Kreepr and get it to a place I&rsquo;m happier with, with more features, more security and background logic, and a cleaner look.</p>
+
+<p>I&rsquo;m also really excited to be starting our independent project next week.  I don&rsquo;t have 100% sign off yet, but I had talked to Katrina about my idea, and it sounds like I&rsquo;ll be able to do PART of it - my original idea is too large a project to do independently in 9 days.  What I&rsquo;m going to be doing is making a website for my sister, who is a massage therapist.  Once it&rsquo;s completely done, I&rsquo;d like to have functionality to let Meghan set her schedule with a base weekly schedule that autogenerates up to two months out, with the ability to go in and tweak individual days.  In addition to a confirmation e-mail when an appointment is scheduled and a reminder e-mail a day or two out, I&rsquo;d also like to implement text messaging a few hours before an appointment to remind the customer, and let them text back if they need to cancel the appointment.  I&rsquo;d like to integrate with Yelp to show her overall review count, and maybe recent reviews.  Lastly, I&rsquo;d like the ability to allow customers to pre-pay for individual massages or massage packages online, and allow Meghan to charge a cancellation fee for missed appointments.</p>
+
+<p>One of the requirements for this project is to build an API and gem on our own, which I think fits in nicely with the scheduling component.  There are a few other gems out there that I found, but none of them have been maintained in the past year; I&rsquo;d also love if my gem would give back to the community so that other people can use it for their own projects as well.</p>
+
+<p>I&rsquo;m really excited to be doing this project, for a few reasons.</p>
+
+<ol>
+<li>I think the building out the scheduling component will be a pretty difficult, and it&rsquo;s a challenge that I think will be extremely rewarding.</li>
+<li>I really want to give this gift to my sister.  Not only is she basically one of the most wonderful, caring, compassionate people on the planet and I want to help her grow her business, she also hooks me up with free massages.</li>
+<li>I&rsquo;m really glad to be doing this project while I&rsquo;m in gSchool.  Since this is a site that will actually be used, security is a big concern and I want to be sure that everything is locked down.  It will be really good to have that second set of eyes from my instructors so they can let me know if there are any vulnerabilities that I overlooked.</li>
+</ol>
+
+
+<p>So, super excited to get cracking on that, but also, not going to lie - I&rsquo;m excited about the long weekend too!</p>
+]]></content>
+  </entry>
+  
+</feed>

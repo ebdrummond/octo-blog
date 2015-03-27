@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Tag: Life as a New Programmer | ebdrummond]]></title>
+  <link href="http://ebdrummond.com/blog/tags/life-as-a-new-programmer/atom.xml" rel="self"/>
+  <link href="http://ebdrummond.com/"/>
+  <updated>2015-03-26T23:32:48-05:00</updated>
+  <id>http://ebdrummond.com/</id>
+  <author>
+    <name><![CDATA[Erin Drummond]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[My First Five Weeks at Table XI]]></title>
+    <link href="http://ebdrummond.com/2013/10/my-first-five-weeks-at-table-xi"/>
+    <updated>2013-10-13T17:29:00-05:00</updated>
+    <id>http://ebdrummond.com/2013/10/my-first-five-weeks-at-table-xi</id>
+    <content type="html"><![CDATA[<p>Well, I&rsquo;m five weeks down at Table XI.  It still boggles my mind that a year ago, switching careers to become a developer wasn&rsquo;t even on my radar yet, and here I am now, shipping a big push to production on my first project at my first programming job.</p>
+
+<p>I started at Table XI on September 9th, and spent my first few days exploring the code base I&rsquo;d be working on and helping to squash stray bugs.  The first few days were pretty stressful - I didn&rsquo;t understand a lot of the code base, and one of the first big bugs I had was in the javascript, which I still don&rsquo;t understand very well.  My mentor had told me my first few days, I&rsquo;d feel like I was in left field but it would pass quickly, but I had a hard time taking it to heart and felt I should be contributing more quickly.  I started to feel better when I talked to other people and heard how long it took them to ramp up when they first start a job - weeks and even months, even if they were experienced developers.</p>
+
+<p>I rounded out the end of my first week attending Windy City Rails.  I&rsquo;d really wanted to go, but thought that since it was my first week, I didn&rsquo;t want to push it asking Table XI if I could take the time off to go.  The day I was moving out of my apartment in Denver, I got an email that they were sending me, so I was really excited.  It ended up being an awesome conference - I met a ton of people from companies around the Chicago area, the greater Midwest, and beyond, and the talks were really interesting.  I was pretty surprised how much I was able to pick up - a few of the talks were over my head, but I was able to take something concrete away from most of them.  It was also great to be able to get to know the Chicago Rails community so soon after moving here - I found it to be a very welcoming community, and I also had the chance to meet with other women in Chicago who had recently graduated from programs similar to gSchool, so it was great to talk to them and share stories.</p>
+
+<p>Week two at Table XI, in addition to squashing bugs, I started to work on my own stories, and even had some deployed to production.  I was still feeling pretty nervous at the beginning of the week, but by week&rsquo;s end, I was starting to build my confidence when I realized that I was able to contribute on my own.  I think the biggest lesson that week for me, though, was not feeling bad about asking questions or being embarrassed about admitting I didn&rsquo;t know how to do something.  As my technical mentor brought up later, I was very honest about my skill level when interviewing, and they knew they were bringing in a junior developer that would require some training - I didn&rsquo;t have to apologize or feel guilty that I didn&rsquo;t know everything from day one.</p>
+
+<p>The company has been great to work for - everyone has been extremely supportive and happy to help in whatever way they can.  I have a technical mentor that I&rsquo;ve been working with closely on my current project, Noel Rappin, and he has been wonderful at explaining complex ideas and answering the million questions I&rsquo;ve had.  I&rsquo;ve become a lot more comfortable asking not just Hey, I don&rsquo;t know how to do this, can you help?, but also Hey, I can get this to work but it&rsquo;s probably not the best way.  Can you show me how you would approach this?  Any other developer at the company that I&rsquo;ve asked for help, regardless of whether they touch my project at all, has been willing to help me out with a question, or even for extended pairing.</p>
+
+<p>I have loved the project manager, Jen Mozen, I&rsquo;ve been working with too.  We work with Pivotal Tracker, and she&rsquo;s awesome at putting in all the information us developers will need, and clarifying any questions we have.  She is amazing at getting to the heart of what a client wants by asking the right questions and knowing their needs, as well as being forthright with what the development team will be able to accomplish in the given time parameters.</p>
+
+<p>I&rsquo;ve also been working closely with Jen during my onboarding process, and I have to say - I&rsquo;ve never worked anywhere with as thorough an onboarding process and as clear a commitment to making sure their employees are happily adjusting to their new job.  The best part of the onboarding process has been the bi-weekly check-ins, as well as this big board of sticky notes where I wrote down what I want to accomplish in the next six months, and Jen did the same for what Table XI would like to see me accomplish in that timeframe.  It runs the gamut from walking the dog ten miles per week to mentoring other developer-in-training students to learning more about application security and performance speed.  In our check-ins we look at my goals, talk about where I am on them,  see what I can do to get to the rest of my goals, and what the company can be doing to help me.  It&rsquo;s very clear they really care about their team, and it&rsquo;s been a good feeling as I settle into my new career.</p>
+
+<p>The past few weeks, I&rsquo;ve continued to work on new stories for my project, and while we&rsquo;ve pushed up to production continuously, the first big feature push that I&rsquo;ve been working on since I started was this past Friday.  It&rsquo;s only been five weeks, but it feels a world different from when I started.  I understand the code base much better, and know the little quirks that run through it and how things interconnect.  I feel better about my skills, and more comfortable with knowing when to look something up on my own versus when to ask for help or to pair up to tackle a problem.  I&rsquo;d love to show you what I worked on, but most of it is on the admin side - trust me though, the code is super sexy (h/t <a href="https://twitter.com/rodchile">Rodrigo Garcia</a>, who taught me code is sexy).</p>
+
+<p>I&rsquo;ve also participated in an inception with a new client, where we worked with the client during an all-day session to understand what the client needs, scope the criteria of the project, draw up some wireframes, and really just start to understand how we can bring the client&rsquo;s vision to life.  One of the reasons I wanted to work with a consultancy was to help code other people&rsquo;s dreams into reality, so it was a great experience to be there at the beginning with someone who will hopefully become a client, and I&rsquo;m really excited about the project.</p>
+
+<p>Overall everyday life at Table XI has been great.  It&rsquo;s a pretty laid back environment, with a lot of perks.  We have an office chef that cooks fantastic meals for lunch every day, there&rsquo;s a company-sponsored Starbucks run every afternoon, there are flexible hours, and an amazing rooftop that&rsquo;s perfect for company-sponsored movies - I caught the last one of this season, Spaceballs.  They are also very committed to being involved with the local community, and are hosting Girl Develop It meetups and supportive of me mentoring Dev Bootcamp students.  Coming up is a dodgeball tournament with other tech companies in Chicago.</p>
+
+<p>So yeah&hellip; that&rsquo;s been my first five weeks in a nutshell.  I&rsquo;m loving developing, and excited about continuing to get better.  It&rsquo;s crazy how much I&rsquo;ve learned in just over a month.  Little lessons of win for me are form objects and the active attr gem, Avdi&rsquo;s naught gem, feeling more confident with Factory Girl and testing in general.  I&rsquo;m still developing a workflow that works best for me and learning how to break complex problems down into small, testable, bite-sized problems that I can tackle with a level head even under time-constraints without stress, but I know that will come with time.  For now, I&rsquo;m loving what I do, and can&rsquo;t wait to see where I am a few more months down the road.</p>
+
+<p>One of my goals for the next six months is updating my blog more regularly, so hopefully you&rsquo;ll be hearing from me more often!</p>
+]]></content>
+  </entry>
+  
+</feed>

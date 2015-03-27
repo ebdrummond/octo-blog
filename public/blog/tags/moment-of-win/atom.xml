@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Tag: Moment of Win | ebdrummond]]></title>
+  <link href="http://ebdrummond.com/blog/tags/moment-of-win/atom.xml" rel="self"/>
+  <link href="http://ebdrummond.com/"/>
+  <updated>2015-03-26T23:32:48-05:00</updated>
+  <id>http://ebdrummond.com/</id>
+  <author>
+    <name><![CDATA[Erin Drummond]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Small Victories]]></title>
+    <link href="http://ebdrummond.com/2013/03/small-victories"/>
+    <updated>2013-03-11T23:52:00-05:00</updated>
+    <id>http://ebdrummond.com/2013/03/small-victories</id>
+    <content type="html"><![CDATA[<p>There&rsquo;s a lot of times it&rsquo;s been stressful and it&rsquo;s so easy to get completely discouraged - when there&rsquo;s those damned RSpec errors that will not go away no matter what you do, or when you are just plain not getting what&rsquo;s going on.  But the feeling you get when you finally figure something out - whether it&rsquo;s an a-ha! moment or just a technical issue you&rsquo;ve been struggling with for a while - that&rsquo;s what makes it worth it.  I need to keep this feeling in my back pocket for those stressful times and remind myself the confetti will rain again.</p>
+
+<p><html>
+<img src="https://s3-us-west-2.amazonaws.com/ebdrummond.com/images/tumblr_inline_mgn7xfEsfq1rngpvz.gif">
+</html></p>
+]]></content>
+  </entry>
+  
+</feed>

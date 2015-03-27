@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Tag: Traffic Spy | ebdrummond]]></title>
+  <link href="http://ebdrummond.com/blog/tags/traffic-spy/atom.xml" rel="self"/>
+  <link href="http://ebdrummond.com/"/>
+  <updated>2015-03-26T23:32:48-05:00</updated>
+  <id>http://ebdrummond.com/</id>
+  <author>
+    <name><![CDATA[Erin Drummond]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Traffic Spy Retrospective]]></title>
+    <link href="http://ebdrummond.com/2013/03/traffic-spy-retrospective"/>
+    <updated>2013-03-08T10:02:00-06:00</updated>
+    <id>http://ebdrummond.com/2013/03/traffic-spy-retrospective</id>
+    <content type="html"><![CDATA[<p>Traffic Spy is another one for the books.  This was definitely the most interesting project I have worked on so far, but the start of the project was also the most foreign to me.  I feel pretty good about the project now that it&rsquo;s done, but I would be completely remiss if I didn&rsquo;t mention how thankful I am to have worked with Kyle as my partner.  He did a lot of the mental heavy lifting for this project and was able to figure out how to implement a lot of the logic we worked through at the start.  I mostly took what he had figured out and applied it to other classes and methods and erb files, so I feel like I learned a lot in the project, but I definitely think he carried the project more than I did in terms of figuring out the original implementations.</p>
+
+<p>One of the things I really liked about this project was once something was built, we could see a tangible output on our site.  With Sinatra + shotgun, if I tweaked the sort of something here or the look of the html there, I could see immediately exactly what I had done.  It was also pretty exciting to show this off to my friends - I don&rsquo;t think showing them Sales Engine would have had the same appeal.</p>
+
+<p>As I move forward, I definitely want to learn how to better control my controller - I noticed most people had the problem that they were able to keep their model classes (relatively) tidy, but the controller was a bit crazy.  Especially with all the if else logic, I&rsquo;d like to learn how to clean this up for the next project, but it was neat to finally get a handle on the MVC model - when we had talked about it in class, I really didn&rsquo;t fully appreciate how it worked, but now that I&rsquo;ve worked with it, I must say I&rsquo;m a fan.</p>
+
+<p>I think if I could go back and re-start this project from the beginning, I would spend more time screwing around with Sequel and get a better idea of database manipulation.  I got the basics of it, but once we were doing higher level combining of tables and searches, I knew logically what I wanted to do, but I couldn&rsquo;t fully figure out the implementation on my own.  We were really lucky, though, in having Frank and Jeff help to guide us in setting up the project and taking our time laying everything out before we started to write any code.  Frank definitely led us in the right direction with creating databases that were a lot more work upfront, but then everything fell into place relatively quickly.  We actually had a pretty relaxed pace the second week of the project because of this - we realized over the weekend most other groups were ahead of us, so we worked pretty long hours over the weekend to catch up and stay on pace, but the way we had structured our project, once the database connections were figured out, everything else was pretty quick to implement.  I hadn&rsquo;t really realized just how quickly the second half would go, but it was nice not to have a ton to scramble on during week two, so I had time to continue to study and play around with our code.</p>
+
+<p>Also this week, I was able to catch the Obama For America team at Galvanize.  I knew I would find the content interesting, but I wasn&rsquo;t really prepared for how much the progressive nerd in me would come out.  It was so exciting to hear them, and I can only imagine the insane emotional rush and the pride they must have felt on election night, realizing they played a big role in making it happen.  When I originally graduated college, the thing I wanted most in the world was to work for a non-profit whose mission I cared deeply about, and then go out and change the world.  That didn&rsquo;t much work out, but I&rsquo;m pretty excited that with this new career, I&rsquo;ll have another crack at that dream, whether it&rsquo;s working directly for an awesome non-profit or socially conscious/progressive company, working with a company who does work for those organizations, or at the very least being able to lend a hand through volunteering.</p>
+
+<p>I&rsquo;m not sure I&rsquo;d want to completely put my life on hold to work on a political campaign like they did (I worked a lot of 60 hour weeks at my last job and felt significant burn out after a while; even if I&rsquo;m passionate about what I&rsquo;m doing, I don&rsquo;t think I could sustain the pace that long), but it is really awesome to know I can still contribute meaningfully to causes I care deeply about.  Back in DC, there was a group that coordinated volunteers with professional skills to assist non-profit institutions (I can&rsquo;t for the life of me remember the name) that Brock used to volunteer for, working on projects like building a website for a local homeless shelter.  I&rsquo;m wondering if there&rsquo;s anything comparable here in Denver and if not, how hard it would be to go about starting something like that.</p>
+
+<p>All in all, it&rsquo;s been a pretty good week.  I&rsquo;m hoping a lot of the database and web stuff I learned has sunk in enough to help propel me through the next project, being able to contribute more upfront, but I feel in a relatively good place right now, and mostly just excited to keep going.  It&rsquo;s starting to sink on a whole new level lately just how damned lucky I am to be here, and I want to squeeze out of this experience everything I can.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Traffic Spy/5 Week Retrospective]]></title>
+    <link href="http://ebdrummond.com/2013/03/traffic-spy-5-week-retrospective"/>
+    <updated>2013-03-01T10:01:00-06:00</updated>
+    <id>http://ebdrummond.com/2013/03/traffic-spy-5-week-retrospective</id>
+    <content type="html"><![CDATA[<p>First class week of Traffic Spy is on the books.  This has been a really difficult assignment for me.  I think I understand how each of the individual pieces (Sinatra, databases, Ruby) work individually, but when I try to put them together, my brain just freezes up.  It&rsquo;s been hard to start, but I&rsquo;m really glad my partner and I spent a good amount of time upfront conceptualizing how the pieces of the project would fit together instead of feeling we had to rush into code.  I&rsquo;ve found that even though we do have a good idea of how the pieces fit, starting the coding has been difficult - we&rsquo;ll get one piece in, and then feel really confused about how to take a next step.  We&rsquo;re also getting really conflicting advice when we ask for help, but I think we&rsquo;ve done relatively well at not spinning our wheels too much, picking a direction, and going for it.  I know this will eventually sink in, but I&rsquo;m not there yet.  I feel really lucky to have a partner that&rsquo;s been really understanding, but I feel I haven&rsquo;t personally contributed very much brain power to this project.</p>
+
+<p>I reached out this week to a Hungry Academy alumnus that I had heard struggled through the course to get his perspective on what I can do to keep up and absorb as much as I can.  His advice was to keep studying and ask a ton of questions, but he felt behind for most of the program as well and is only now feeling comfortable with Ruby and Rails.  I&rsquo;ve definitely gotten more comfortable asking questions, but I still feel like I want to do my best to try to work through all these new ideas before I ask questions to see if I can work through it on my own - I try to look up ideas and let the learning sink in before asking questions, but when we have a limited amount of time to complete a project, I&rsquo;m not sure the best approach.  I also sometimes feel like I don&rsquo;t even know how to formulate a question to get a meaningful answer on what I don&rsquo;t know.  I do wish there was more opportunity for small groups of people who are feeling a little behind like me to work through some of these new ideas with the instructors in a structured environment.</p>
+
+<p>Overall I&rsquo;m really trying to focus on Do I know more today than I did yesterday, and the answer every day is yes.  I&rsquo;m trying to keep this foremost in my mind as I keep working through projects and learning new systems.  I know it&rsquo;s going to get better and that it&rsquo;s unrealistic that I&rsquo;m going to have mastered every single thing we&rsquo;re exposed to in gSchool by the time we graduate.  Still, I am looking forward to making better sense of how to get tools like Sinatra, databases, and my base Ruby knowledge to interact - this is really a lot more exciting to me conceptually than what we&rsquo;ve been doing, but it&rsquo;s also a lot more difficult to sort out.</p>
+
+<p>I am also pretty nervous about our skills evaluation.  I have learned a tremendous amount in such a short timespan, but because there&rsquo;s so much new information in my head, it gets jumbled up and I haven&rsquo;t been able to absorb everything I&rsquo;ve learned.  I am looking forward to seeing an objective assessment of where I am though so I know what to concentrate on studying.</p>
+]]></content>
+  </entry>
+  
+</feed>
