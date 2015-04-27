@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://ebdrummond.com/2015/04/unpacking-memories</loc>
+    <lastmod>2015-04-26T14:54:00-05:00</lastmod>
+  </url>
+  <url>
     <loc>http://ebdrummond.com/2015/03/parting-ways</loc>
     <lastmod>2015-03-29T20:54:00-05:00</lastmod>
   </url>
@@ -229,12 +233,6 @@
     <loc>http://ebdrummond.com/blog/tags/moving-on/</loc>
   </url>
   <url>
-    <loc>http://ebdrummond.com/posts/2/</loc>
-  </url>
-  <url>
-    <loc>http://ebdrummond.com/posts/3/</loc>
-  </url>
-  <url>
-    <loc>http://ebdrummond.com/posts/4/</loc>
+    <loc>http://ebdrummond.com/blog/tags/memories/</loc>
   </url>
 </urlset>
